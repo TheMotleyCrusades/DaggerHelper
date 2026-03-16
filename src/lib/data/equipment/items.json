@@ -1,0 +1,100 @@
+[
+  {
+    "id": "item-warding-brooch",
+    "lineageKey": "item-warding-brooch",
+    "slug": "warding-brooch",
+    "name": "Warding Brooch",
+    "rarity": "uncommon",
+    "rollValue": null,
+    "itemCategory": "wearable",
+    "canEquip": true,
+    "equipLabel": "Accessory",
+    "stackLimit": 1,
+    "sheetModifiers": {
+      "evasion": 1
+    },
+    "usagePayload": {},
+    "rulesText": "While equipped, gain +1 Evasion.",
+    "tags": ["item", "wearable", "defense"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "item-bracing-straps",
+    "lineageKey": "item-bracing-straps",
+    "slug": "bracing-straps",
+    "name": "Bracing Straps",
+    "rarity": "common",
+    "rollValue": null,
+    "itemCategory": "attachment",
+    "canEquip": true,
+    "equipLabel": "Armor Attachment",
+    "stackLimit": 1,
+    "sheetModifiers": {
+      "majorThreshold": 1
+    },
+    "usagePayload": {},
+    "rulesText": "While equipped, increase Major Threshold by 1.",
+    "tags": ["item", "attachment", "armor"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 59
+  },
+  {
+    "id": "item-reinforced-padding",
+    "lineageKey": "item-reinforced-padding",
+    "slug": "reinforced-padding",
+    "name": "Reinforced Padding",
+    "rarity": "common",
+    "rollValue": null,
+    "itemCategory": "wearable",
+    "canEquip": true,
+    "equipLabel": "Inner Layer",
+    "stackLimit": 1,
+    "sheetModifiers": {
+      "severeThreshold": 1
+    },
+    "usagePayload": {},
+    "rulesText": "While equipped, increase Severe Threshold by 1.",
+    "tags": ["item", "wearable", "armor"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 59
+  },
+  {
+    "id": "item-adventuring-kit",
+    "lineageKey": "item-adventuring-kit",
+    "slug": "adventuring-kit",
+    "name": "Adventuring Kit",
+    "rarity": "common",
+    "rollValue": null,
+    "itemCategory": "tool",
+    "canEquip": false,
+    "equipLabel": null,
+    "stackLimit": 1,
+    "sheetModifiers": {},
+    "usagePayload": {},
+    "rulesText": "Basic rope, pitons, and utility gear for exploration.",
+    "tags": ["item", "tool", "utility"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 60
+  },
+  {
+    "id": "item-lucky-charm",
+    "lineageKey": "item-lucky-charm",
+    "slug": "lucky-charm",
+    "name": "Lucky Charm",
+    "rarity": "rare",
+    "rollValue": null,
+    "itemCategory": "relic",
+    "canEquip": true,
+    "equipLabel": "Charm",
+    "stackLimit": 1,
+    "sheetModifiers": {
+      "proficiency": 1
+    },
+    "usagePayload": {},
+    "rulesText": "While equipped, gain +1 Proficiency.",
+    "tags": ["item", "relic", "luck"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 61
+  }
+]

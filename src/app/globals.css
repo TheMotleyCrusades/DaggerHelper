@@ -1,26 +1,134 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-950: #080d16;
+  --bg-900: #0f172a;
+  --bg-800: #1d2a40;
+  --ink-100: #f8f7f2;
+  --ink-300: #c9d1de;
+  --amber-300: #f7c16b;
+  --amber-500: #d97706;
+  --amber-700: #92400e;
+  --danger: #ef4444;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-body);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  color: var(--ink-100);
+  background:
+    radial-gradient(circle at 15% 20%, rgb(146 64 14 / 20%), transparent 35%),
+    radial-gradient(circle at 85% 70%, rgb(245 158 11 / 14%), transparent 30%),
+    linear-gradient(160deg, var(--bg-950), var(--bg-900) 40%, var(--bg-800));
 }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.panel {
+  border: 1px solid rgb(217 119 6 / 35%);
+  background: rgb(15 23 42 / 72%);
+  backdrop-filter: blur(4px);
+}
+
+.btn-primary {
+  border-radius: 0.6rem;
+  border: 1px solid rgb(245 158 11 / 38%);
+  background: linear-gradient(180deg, rgb(217 119 6), rgb(146 64 14));
+  color: white;
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgb(0 0 0 / 24%);
+}
+
+.btn-outline {
+  border-radius: 0.6rem;
+  border: 1px solid rgb(148 163 184 / 35%);
+  color: var(--ink-300);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-outline:hover {
+  border-color: rgb(245 158 11 / 60%);
+  color: var(--amber-300);
+}
+
+.field {
+  width: 100%;
+  border-radius: 0.6rem;
+  border: 1px solid rgb(148 163 184 / 30%);
+  background: rgb(15 23 42 / 68%);
+  color: var(--ink-100);
+  padding: 0.55rem 0.75rem;
+}
+
+.field:focus {
+  outline: 2px solid rgb(245 158 11 / 45%);
+  outline-offset: 1px;
+}
+
+.landing-aurora {
+  background:
+    radial-gradient(circle at top, rgb(245 158 11 / 18%), transparent 32%),
+    radial-gradient(circle at 82% 20%, rgb(56 189 248 / 12%), transparent 24%),
+    radial-gradient(circle at 18% 78%, rgb(251 191 36 / 10%), transparent 26%);
+}
+
+.landing-grid {
+  background-image:
+    linear-gradient(rgb(148 163 184 / 8%) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(148 163 184 / 8%) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(circle at center, black, transparent 78%);
+}
+
+.fade-up {
+  animation: fade-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--fade-delay, 0ms);
+}
+
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(0, -8px, 0);
+  }
+}
+

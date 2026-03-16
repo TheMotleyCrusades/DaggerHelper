@@ -17,6 +17,10 @@
 /.next/
 /out/
 
+# public assets (local only)
+/public/cards/
+/public/class-art/
+
 # production
 /build
 
@@ -33,9 +37,9 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
-# vercel
-.vercel
-
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
+.tmp_*

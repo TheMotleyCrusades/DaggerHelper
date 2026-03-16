@@ -1,0 +1,90 @@
+[
+  {
+    "id": "consumable-healing-draught",
+    "lineageKey": "consumable-healing-draught",
+    "slug": "healing-draught",
+    "name": "Healing Draught",
+    "rarity": "common",
+    "rollValue": null,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {
+      "effect": "restore_hp",
+      "amount": "d6"
+    },
+    "rulesText": "Drink to recover d6 HP.",
+    "tags": ["consumable", "healing", "potion"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 60
+  },
+  {
+    "id": "consumable-focus-ink",
+    "lineageKey": "consumable-focus-ink",
+    "slug": "focus-ink",
+    "name": "Focus Ink",
+    "rarity": "uncommon",
+    "rollValue": null,
+    "consumableCategory": "scroll",
+    "stackLimit": 3,
+    "usagePayload": {
+      "effect": "spell_boost",
+      "duration": "scene"
+    },
+    "rulesText": "Apply to a scroll or sigil to gain advantage on the next spell check this scene.",
+    "tags": ["consumable", "arcane", "scroll"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 61
+  },
+  {
+    "id": "consumable-smoke-bomb",
+    "lineageKey": "consumable-smoke-bomb",
+    "slug": "smoke-bomb",
+    "name": "Smoke Bomb",
+    "rarity": "common",
+    "rollValue": null,
+    "consumableCategory": "bomb",
+    "stackLimit": 3,
+    "usagePayload": {
+      "effect": "obscure_close_area"
+    },
+    "rulesText": "Create a close-area smoke cloud until the end of your next turn.",
+    "tags": ["consumable", "bomb", "utility"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 60
+  },
+  {
+    "id": "consumable-antidote-salve",
+    "lineageKey": "consumable-antidote-salve",
+    "slug": "antidote-salve",
+    "name": "Antidote Salve",
+    "rarity": "common",
+    "rollValue": null,
+    "consumableCategory": "salve",
+    "stackLimit": 4,
+    "usagePayload": {
+      "effect": "remove_condition",
+      "condition": "poisoned"
+    },
+    "rulesText": "Apply to remove a poison effect.",
+    "tags": ["consumable", "salve", "antidote"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 60
+  },
+  {
+    "id": "consumable-ration-pack",
+    "lineageKey": "consumable-ration-pack",
+    "slug": "ration-pack",
+    "name": "Ration Pack",
+    "rarity": "common",
+    "rollValue": null,
+    "consumableCategory": "food",
+    "stackLimit": 10,
+    "usagePayload": {
+      "effect": "rest_support"
+    },
+    "rulesText": "Basic food for travel and short rests.",
+    "tags": ["consumable", "food", "travel"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 60
+  }
+]

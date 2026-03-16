@@ -1,0 +1,88 @@
+[
+  {
+    "id": "armor-travel-leathers",
+    "lineageKey": "armor-travel-leathers",
+    "slug": "travel-leathers",
+    "name": "Travel Leathers",
+    "tier": 1,
+    "baseMajorThreshold": 7,
+    "baseSevereThreshold": 14,
+    "baseArmorScore": 1,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Flexible layers keep movement silent in rough terrain.",
+    "tags": ["armor", "light"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 54
+  },
+  {
+    "id": "armor-warden-mail",
+    "lineageKey": "armor-warden-mail",
+    "slug": "warden-mail",
+    "name": "Warden Mail",
+    "tier": 1,
+    "baseMajorThreshold": 8,
+    "baseSevereThreshold": 16,
+    "baseArmorScore": 2,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Balanced protection without sacrificing mobility.",
+    "tags": ["armor", "medium"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 54
+  },
+  {
+    "id": "armor-bulwark-plate",
+    "lineageKey": "armor-bulwark-plate",
+    "slug": "bulwark-plate",
+    "name": "Bulwark Plate",
+    "tier": 1,
+    "baseMajorThreshold": 9,
+    "baseSevereThreshold": 18,
+    "baseArmorScore": 3,
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy plating reduces forced movement effects.",
+    "tags": ["armor", "heavy"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-shimmerweave",
+    "lineageKey": "armor-shimmerweave",
+    "slug": "shimmerweave",
+    "name": "Shimmerweave",
+    "tier": 1,
+    "baseMajorThreshold": 7,
+    "baseSevereThreshold": 14,
+    "baseArmorScore": 2,
+    "sheetModifiers": {
+      "evasion": 1
+    },
+    "featureName": null,
+    "featureText": "Arcane weave grants +1 evasion versus magical attacks.",
+    "tags": ["armor", "arcane"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-ranger-cloak",
+    "lineageKey": "armor-ranger-cloak",
+    "slug": "ranger-cloak",
+    "name": "Ranger Cloak",
+    "tier": 1,
+    "baseMajorThreshold": 8,
+    "baseSevereThreshold": 16,
+    "baseArmorScore": 1,
+    "sheetModifiers": {
+      "evasion": 1
+    },
+    "featureName": null,
+    "featureText": "Camouflage grants advantage on first stealth check each scene.",
+    "tags": ["armor", "light", "stealth"],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  }
+]

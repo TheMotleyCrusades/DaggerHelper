@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dagger Helper (Next.js + Supabase)
 
-## Getting Started
+Guide-aligned rebuild for Daggerheart campaign prep with:
+- Adversary management and community library
+- Campaign and encounter management
+- Character builder wizard (6 steps) with export/share
+- GM customization console for campaign-level character rules and custom card/equipment content
 
-First, run the development server:
+## Run Locally
+
+1. Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Add environment variables in `.env.local`:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+NEXT_PUBLIC_SUPABASE_URL=...
+NEXT_PUBLIC_SUPABASE_ANON_KEY=...
+SUPABASE_SERVICE_ROLE_KEY=...
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Start dev server:
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Open [http://localhost:3000](http://localhost:3000).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Key Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `pnpm dev` - start local preview
+- `pnpm lint` - run ESLint
+- `pnpm test` - run Vitest suite
+- `pnpm build` - production build verification
+- `pnpm db:seed:runtime` - apply runtime seed data
+- `pnpm db:import:adversaries` - import official adversaries from tier text dataset
 
-## Deploy on Vercel
+## Implemented Character Builder Scope
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Wizard steps 1-6:
+  - Basic identity
+  - Trait assignment
+  - Weapons and armor
+  - Domain card deck building (mobile-friendly tap controls + desktop drag/drop ordering)
+  - Background and story
+  - Review/finalize
+- Character management pages:
+  - `/characters`
+  - `/characters/[id]`
+  - `/characters/[id]/edit`
+- Export and sharing:
+  - `/api/characters/[id]/export/pdf`
+  - `/api/characters/[id]/export/json`
+  - `/api/share`
+  - `/share/[shareId]`
+- GM customization console:
+  - `/campaigns/[id]/settings`
+  - Character sheet rules
+  - Domain card management
+  - Weapon and armor management
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Planning Docs
+
+- `GM_CONSOLE_CUSTOMIZATION_EXPANSION.md` - proposed next-phase expansion of the GM console into a full campaign customization system for resources, currencies, terminology, sheet layout, and broader homebrew support
+
+## Testing Snapshot
+
+- Lint: passing
+- Tests: passing (`4 files / 10 tests`)
+- Build: passing
