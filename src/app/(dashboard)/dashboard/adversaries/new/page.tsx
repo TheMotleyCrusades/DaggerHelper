@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { AdversaryForm, type AdversaryFormValue } from "@/components/adversaries/adversary-form";
+import { AdversaryWizard } from "@/components/adversaries/adversary-wizard";
+import type { AdversaryFormValue } from "@/components/adversaries/adversary-form";
 
 export default function NewAdversaryPage() {
   const router = useRouter();
@@ -35,7 +36,7 @@ export default function NewAdversaryPage() {
         </Link>
       </div>
 
-      <AdversaryForm submitLabel="Create Adversary" pendingLabel="Creating..." onSubmit={createAdversary} />
+      <AdversaryWizard onSubmit={createAdversary} />
     </section>
   );
 }

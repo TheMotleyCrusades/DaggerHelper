@@ -1,0 +1,4012 @@
+[
+  {
+    "id": 1,
+    "title": "Relentless",
+    "type": "Passive",
+    "tiers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "roles": [],
+    "description": "the Adversary can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 2,
+    "title": "Earth Eruption",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to have the Adversary burst out of the ground. All creatures within Very Close range must succeed on an Agility Reaction Roll or be knocked over, making them Vulnerable until they next act.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 3,
+    "title": "Spit Acid",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make an attack against all targets in front of the Adversary within Close range. Targets the Adversary succeeds against take 2d6 physical damage and must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP and you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 4,
+    "title": "Acid Bath",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary takes Severe damage, all creatures within Close range are bathed in their acidic blood, taking 1d10 physical damage. This splash covers the ground within Very Close range with blood, and all creatures other than the Adversary who move through it take 1d6 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 5,
+    "title": "Overwhelming Force",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Targets who mark HP from the Adversary’s standard attack are knocked back to Very Close range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 6,
+    "title": "Bite",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make an attack against a target within Melee range. On a success, deal 3d4+10 physical damage and the target is Restrained until they break free with a successful Strength Roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 7,
+    "title": "Momentum",
+    "type": "Reaction",
+    "tiers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful attack against a PC, you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 8,
+    "title": "Ramp Up",
+    "type": "Passive",
+    "tiers": [
+      1,
+      2
+    ],
+    "roles": [],
+    "description": "You must spend a Fear to spotlight the Adversary. While spotlighted, they can make their standard attack against all targets within range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 9,
+    "title": "Bone Breaker",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "The Adversary’s attacks deal direct damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 10,
+    "title": "Hail of Boulders",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to pick up heavy objects and throw them at all targets in front of the Adversary within Far range. Make an attack against these targets. Targets the Adversary succeeds against take 1d10+2 physical damage. If they succeed against more than one target, you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 11,
+    "title": "Rampaging Fury",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary marks 2 or more HP, they can rampage. Move the Adversary to a point within Close range and deal 2d6+3 direct physical damage to all targets in their path.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 12,
+    "title": "Weak Structure",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary marks HP from physical damage, they must mark an additional HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 13,
+    "title": "Trample",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make an attack against all targets in the Adversary’s path when they move. Targets the Adversary succeeds against take 1d8 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 14,
+    "title": "Overload",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Before rolling damage for the Adversary’s attack, you can mark a Stress to gain a +10 bonus to the damage roll. the Adversary can then take the spotlight again.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 15,
+    "title": "Death Quake",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary marks their last HP, the magic powering them ruptures in an explosion of force. Make an attack with advantage against all targets within Very Close range. Targets the Adversary succeeds against take 1d12+2 magic damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 16,
+    "title": "Mockery",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to say something mocking and force a target within Close range to make a Presence Reaction Roll (14) to see if they can save face. On a failure, the target must mark 2 Stress and is Vulnerable until the scene ends.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 17,
+    "title": "Scapegoat",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend a Fear and target a PC. the Adversary convinces a crowd or prominent individual that the target is the cause of their current conflict or misfortune.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 18,
+    "title": "Ground Slam",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Slam the ground, knocking all targets within Very Close range back to Far range. Each target knocked back this way must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 19,
+    "title": "Grab and Drag",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Close range. On a success, spend a Fear to pull them into Melee range, deal 1d6+2 physical damage, and Restrain them until the Adversary takes Severe damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 20,
+    "title": "Pack Tactics",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "If the Adversary makes a successful standard attack and another the Adversary the Adversary is within Melee range of the target, deal 1d6+5 physical damage instead of their standard damage and you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 21,
+    "title": "Hobbling Strike",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make an attack against a target within Melee range. On a success, deal 3d4+10 direct physical damage and make them Vulnerable until they clear at least 1 HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 22,
+    "title": "Horde",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary have marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 23,
+    "title": "Flying",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "While flying, the Adversary have a +2 bonus to their Difficulty.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 24,
+    "title": "Bloodsucker",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary’ attack causes a target to mark HP, you can mark a Stress to force the target to mark an additional HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 25,
+    "title": "Minion",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "the Adversary is defeated when they take any damage. For every 3 damage a PC deals to the Adversary, defeat an additional Minion within range the attack would succeed against.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 26,
+    "title": "Group Attack",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend a Fear to choose a target and spotlight all Adversary the Adversary within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 1 physical damage each. Combine this damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 27,
+    "title": "Double Strike",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make a standard attack against two targets within Melee range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 28,
+    "title": "Venomous Stinger",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Very Close range. On a success, spend a Fear to deal 1d4+4 physical damage and Poison them until their next rest or they succeed on a Knowledge Roll (16). While Poisoned, the target must roll a d6 before they make an action roll. On a result of 4 or lower, they must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 29,
+    "title": "Armor-Shredding Shards",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "On a successful attack within Melee range against the Adversary, the attacker must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 30,
+    "title": "Spinning Serpent",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make an attack against all targets within Very Close range. Targets the Adversary succeeds against take 1d6+1 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 31,
+    "title": "Spitter",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend a Fear to introduce a d6 the Adversary Die. When the Adversary is in the spotlight, roll this die. On a result of 5 or higher, all targets in front of the Adversary within Far range must succeed on an Agility Reaction Roll or take 1d4 physical damage. the Adversary can take the spotlight a second time this GM turn.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 32,
+    "title": "Maintain Distance",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "After making a standard attack, the Adversary can move anywhere within Far range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 33,
+    "title": "Fall Back",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When a creature moves into Melee range to make an attack, you can mark a Stress before the attack roll to move anywhere within Close range and make an attack against that creature. On a success, deal 1d10+2 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 34,
+    "title": "Hobbling Shot",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Far range. On a success, mark a Stress to deal 1d12+3 physical damage. If the target marks HP from this attack, they have disadvantage on Agility Rolls until they clear at least 1 HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 35,
+    "title": "Shield Wall",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "A creature who tries to move within Very Close range of the Adversary must succeed on an Agility Roll. If additional the Adversary the Adversary are standing in a line alongside the first, and each is within Melee range of another guard in the line, the Difficulty increases by the total number of guards in that line.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 36,
+    "title": "Detain",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Very Close range. On a success, mark a Stress to Restrain the target until they break free with a successful attack, Finesse Roll, or Strength Roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 37,
+    "title": "Rally Guards",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend 2 Fear to spotlight the Head the Adversary and up to 2d4 allies within Far range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 38,
+    "title": "On My Signal",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Countdown (5). When the Head the Adversary is in the spotlight for the first time, activate the countdown. It ticks down when a PC makes an attack roll. When it triggers, all the Adversary the Adversary within Far range make a standard attack with advantage against the nearest target within their range. If any attacks succeed on the same target, combine their damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 39,
+    "title": "Momentum",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Head the Adversary makes a successful attack against a PC, you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 40,
+    "title": "Climber",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "the Adversary climbs just as easily as they run.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 41,
+    "title": "From Above",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary succeeds on a standard attack from above a target, they deal 1d10+1 physical damage instead of their standard damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 42,
+    "title": "Curse",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Choose a target within Far range and temporarily Curse them. While the target is Cursed, you can mark a Stress when that target rolls with Hope to make the roll be with Fear instead.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 43,
+    "title": "Chaotic Flux",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make an attack against up to three targets within Very Close range. Mark a Stress to deal 2d6+3 magic damage to targets the Adversary succeeded against.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 44,
+    "title": "I’ve Got ’Em",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Creatures Restrained by the Adversary take double damage from attacks by other adversaries.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 45,
+    "title": "Hold Them Down",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Melee range. On a success, the target takes no damage but is Restrained and Vulnerable. The target can break free, clearing both conditions, with a successful Strength Roll or is freed automatically if the Adversary takes Major or greater damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 46,
+    "title": "Tactician",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When you spotlight the Adversary, mark a Stress to also spotlight two allies within Close range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 47,
+    "title": "More Where That Came From",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Summon three Adversaries, who appear at Far range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 48,
+    "title": "Coup de Grace",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend a Fear to make an attack against a Vulnerable target within Close range. On a success, deal 2d6+12 physical damage and the target must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 49,
+    "title": "Backstab",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Shadow succeeds on a standard attack that has advantage, they deal 1d6+6 physical damage instead of their standard damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 50,
+    "title": "Cloaked",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Become Hidden until after the Shadow’s next attack. Attacks made while Hidden from this feature have advantage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 51,
+    "title": "Unseen Strike",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "If the Adversary is Hidden when they make a successful standard attack against a target, they deal 1d10+4 physical damage instead of their standard damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 52,
+    "title": "Preferential Treatment",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "A PC who succeeds on a Presence Roll against the Adversary gains a discount on purchases. A PC who fails on a Presence Roll against the Adversary must pay more and has disadvantage on future Presence Rolls against the Adversary.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 53,
+    "title": "The Runaround",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When a PC rolls a 14 or lower on a Presence Roll made against the Adversary, they must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 54,
+    "title": "Arcane Form",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "the Adversary is resistant to magic damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 55,
+    "title": "Sickening Flux",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a HP to force all targets within Close range to mark a Stress and become Vulnerable until their next rest or they clear a HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 56,
+    "title": "Remake Reality",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend a Fear to transform the area within Very Close range into a different biome. All targets within this area take 2d6+3 direct magic damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 57,
+    "title": "Magical Reflection",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Elemental takes damage from an attack within Close range, deal an amount of damage to the attacker equal to half the damage they dealt.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 58,
+    "title": "Momentum",
+    "type": "Reaction",
+    "tiers": [
+      1,
+      3
+    ],
+    "roles": [],
+    "description": "When the Elemental makes a successful attack against a PC, you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 59,
+    "title": "Scorched Earth",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to choose a point within Far range. The ground within Very Close range of that point immediately bursts into flames. All creatures within this area must make an Agility Reaction Roll. Targets who fail take 2d8 magic damage from the flames. Targets who succeed take half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 60,
+    "title": "Explosion",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend a Fear to erupt in a fiery explosion. Make an attack against all targets within Close range. Targets the Elemental succeeds against take 1d8 magic damage and are knocked back to Far range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 61,
+    "title": "Consume Kindling",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Three times per scene, when the Elemental moves onto objects that are highly flammable, consume them to clear a HP or a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 62,
+    "title": "All Must Fall",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When a PC rolls a failure with Fear while within Close range of the Adversary, they lose a Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 63,
+    "title": "Hellfire",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend a Fear to rain down hellfire within Far range. All targets within the area must make an Agility Reaction Roll. Targets who fail take 1d20+3 magic damage. Targets who succeed take half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 64,
+    "title": "Reaper",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Before rolling damage for the Adversary’s attack, you can mark a Stress to gain a bonus to the damage roll equal to the Adversary’s current number of marked HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 65,
+    "title": "Momentum",
+    "type": "Reaction",
+    "tiers": [
+      1,
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful attack against a PC, you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 66,
+    "title": "Slow",
+    "type": "Passive",
+    "tiers": [
+      1,
+      3
+    ],
+    "roles": [],
+    "description": "When you spotlight the Adversary and they don’t have a token on their stat block, they can’t act yet. Place a token on their stat block and describe what they’re preparing to do. When you spotlight the Adversary and they have a token on their stat block, clear the token and they can act.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 67,
+    "title": "Acidic Form",
+    "type": "Passive",
+    "tiers": [
+      1,
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 68,
+    "title": "Envelop",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make a standard attack against a target within Melee range. On a success, the Adversary envelops them and the target must mark 2 Stress. The target must mark an additional Stress when they make an action roll. If the Adversary takes Severe damage, the target is freed.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 69,
+    "title": "Split",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary has 3 or more HP marked, you can spend a Fear to split them into two Adversarys (with no marked HP or Stress). Immediately spotlight both of them.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 70,
+    "title": "Creeping Fire",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "the Adversary can only move within Very Close range as their normal movement. They light any flammable object they touch on fire.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 71,
+    "title": "Ignite",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Very Close range. On a success, the target takes 1d8 magic damage and is Ignited until they’re extinguished with a successful Finesse Roll (14). While Ignited, the target takes 1d4 magic damage when they make an action roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 72,
+    "title": "Split",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary has 3 or more HP marked, you can spend a Fear to split them into two Tiny Red the Adversary (with no marked HP or Stress). Immediately spotlight both of them.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 73,
+    "title": "Burning",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When a creature within Melee range deals damage to the Adversary, they take 1d6 direct magic damage",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 74,
+    "title": "My Land, My Rules",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "All social actions made against the Noble on their land have disadvantage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 75,
+    "title": "Guards, Seize Them!",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Once per scene, mark a Stress to summon 1d4 the Adversary the Adversary, who appear at Far range to enforce the Noble’s will.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 76,
+    "title": "Exile",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend a Fear and target a PC. The Noble proclaims that the target and their allies are exiled from the noble’s territory. While exiled, the target and their allies have disadvantage during social situations within the Noble’s domain.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 77,
+    "title": "Swashbuckler",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary marks 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 78,
+    "title": "Reinforcements",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Once per scene, mark a Stress to summon a Horde, which appears at Far range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 79,
+    "title": "No Quarter",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend a Fear to choose a target who has three or more the Adversary within Melee range of them. the Adversary leads the Adversary in hurling threats and promises of a watery grave. The target must make a Presence Reaction Roll. On a failure, the target marks 1d4+1 Stress. On a success, they must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 80,
+    "title": "Swashbuckler",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary mark 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 81,
+    "title": "Swashbuckler",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Tough marks 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 82,
+    "title": "Clear the Decks",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Very Close range. On a success, mark a Stress to move into Melee range of the target, dealing 3d4 physical damage and knocking the target back to Close range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 83,
+    "title": "Opportunist",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When two or more adversaries are within Very Close range of a creature, all damage the Adversary deals to that creature is doubled.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 84,
+    "title": "Deadly Shot",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make an attack against a Vulnerable target within Far range. On a success, mark a Stress to deal 3d4+8 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 85,
+    "title": "Terrifying",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful attack, all PCs within Close range lose a Hope and you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 86,
+    "title": "Cut to the Bone",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make an attack against all targets within Very Close range. Targets the Adversary succeeds against take 1d8+2 physical damage and must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 87,
+    "title": "Dig Two Graves",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary is defeated, they make an attack against a target within Very Close range (prioritizing the creature who killed them). On a success, the target takes 1d4+8 physical damage and loses 1d4 Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 88,
+    "title": "Only Bones",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "the Adversary is resistant to physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 89,
+    "title": "Won’t Stay Dead",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary is defeated, you can spotlight them and roll a d6. On a result of 6, if there are other adversaries on the battlefield, the Adversary re-forms with no marked HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 90,
+    "title": "Arcane Steel",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Damage dealt by the Adversary’s standard attack is considered both physical and magic.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 91,
+    "title": "Suppressing Blast",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress and target a group within Far range. All targets must succeed on an Agility Reaction Roll or take 1d8+2 magic damage. You gain a Fear for each target who marked HP from this attack.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 92,
+    "title": "Move as a Unit",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend 2 Fear to spotlight up to five allies within Far range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 93,
+    "title": "Horde",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Swarm has marked half or more of their HP, their standard attack deals 1d4+1 physical damage instead.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 94,
+    "title": "In Your Face",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "All targets within Melee range have disadvantage on attacks against targets other than the Swarm.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 95,
+    "title": "Pack Tactics",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "If the Adversary makes a standard attack and another the Adversary the Adversary is within Melee range of the target, deal 1d8+5 physical damage instead of their standard damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 96,
+    "title": "Forest Control",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend a Fear to pull down a tree within Close range. A creature hit by the tree must succeed on an Agility Reaction Roll (15) or take 1d10 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 97,
+    "title": "Blend In",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful attack, you can mark a Stress to become Hidden until the Adversary’s next attack or a PC succeeds on an Instinct Roll (14) to find them.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 98,
+    "title": "Crush",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to deal 2d6+8 direct physical damage to a target with 3 or more bramble tokens.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 99,
+    "title": "Encumber",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Swarm succeeds on an attack, give the target a bramble token. If a target has any bramble tokens, they are Restrained. If a target has 3 or more bramble tokens, they are also Vulnerable. All bramble tokens can be removed by succeeding on a Finesse Roll (12 + the number of bramble tokens) or dealing Major or greater damage to the Swarm. If bramble tokens are removed from a target using a Finesse Roll, a number of Tangle the Adversary Minions spawn within Melee range equal to the number of tokens removed.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 100,
+    "title": "Drain and Multiply",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When an attack from the Adversary causes a target to mark HP and there are three or more Tangle the Adversary Minions within Close range, you can combine the Minions into a Tangle the Adversary Swarm Horde. The Horde’s HP is equal to the number of Minions combined.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 101,
+    "title": "Goading Strike",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make a standard attack against a target. On a success, mark a Stress to Taunt the target until their next successful attack. The next time the Taunted target attacks, they have disadvantage against targets other than the Adversary.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 102,
+    "title": "Adrenaline Burst",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Once per scene, spend a Fear to clear 2 HP and 2 Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 103,
+    "title": "Voice of the Forest",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to spotlight 1d4 allies within range of a target they can attack without moving. On a success, their attacks deal half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 104,
+    "title": "Thorny Cage",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Spend a Fear to form a cage around a target within Very Close range and Restrain them until they’re freed with a successful Strength Roll. When a creature makes an action roll against the cage, they must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 105,
+    "title": "Rend Asunder",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Make a standard attack with advantage against a target the Adversary has Restrained. On a success, the attack deals direct damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 106,
+    "title": "Rip and Tear",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful standard attack, you can mark a Stress to temporarily Restrain the target and force them to mark 2 Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 107,
+    "title": "Destructible",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary takes Major or greater damage, they mark an additional HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 108,
+    "title": "Flailing Limbs",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a standard attack, they can attack all targets within Very Close range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 109,
+    "title": "Another for the Pile",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary is within Very Close range of a corpse, they can incorporate it into themselves, clearing a HP and a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 110,
+    "title": "Tormented Screams",
+    "type": "Action",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Mark a Stress to cause all PCs within Far range to make a Presence Reaction Roll (13). Targets who fail lose a Hope and you gain a Fear for each. Targets who succeed must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 111,
+    "title": "Too Many to Handle",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary is within Melee range of a creature and at least one other the Adversary is within Close range, all attacks against that creature have advantage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 112,
+    "title": "Horrifying",
+    "type": "Passive",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "Targets who mark HP from the Adversary’s attacks must also mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 113,
+    "title": "Overwhelm",
+    "type": "Reaction",
+    "tiers": [
+      1
+    ],
+    "roles": [],
+    "description": "When the Adversary mark HP from an attack within Melee range, you can mark a Stress to make a standard attack against the attacker.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 114,
+    "title": "Focused Volley",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to target a point within Far range. Make an attack with advantage against all targets within Close range of that point. Targets the Adversary succeeds against take 1d10+4 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 115,
+    "title": "Suppressing Fire",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to target a point within Far range. Until the next roll with Fear, a creature who moves within Close range of that point must make an Agility Reaction Roll. On a failure, they take 2d6+3 physical damage. On a success, they take half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 116,
+    "title": "Grindletooth Venom",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Targets who mark HP from the Adversary’s attacks are Vulnerable until they clear a HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 117,
+    "title": "Out of Nowhere",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "the Adversary has advantage on attacks if they are Hidden.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 118,
+    "title": "Fumigation",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Drop a smoke bomb that fills the air within Close range with smoke, Dizzying all targets in this area. Dizzied targets have disadvantage on their next action roll, then clear the condition.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 119,
+    "title": "Won’t See It Coming",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "the Adversary deals direct damage while they’re Hidden.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 120,
+    "title": "Strike as One",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to spotlight a number of other the Adversary equal to the Adversary’s unmarked Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 121,
+    "title": "The Subtle Blade",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Adversary successfully makes a standard attack against a Vulnerable target, you can spend a Fear to deal Severe damage instead of their standard damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 122,
+    "title": "Randomized Tactics",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 123,
+    "title": "Overcharge",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Before rolling damage for the Adversary’s attack, you can mark a Stress to add a d6 to the damage roll. Additionally, you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 124,
+    "title": "Death Quake",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Adversary marks their last HP, the magic powering them ruptures in an explosion of force. All targets within Close range must succeed on an Instinct Reaction Roll or take 2d8+1 magic damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 125,
+    "title": "Levitation",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "the Adversary levitates several feet off the ground and can’t be Restrained.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 126,
+    "title": "Wards",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "the Adversary is resistant to magic damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 127,
+    "title": "Magic Burst",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make an attack against all targets within Close range. Targets the Adversary succeeds against take 2d6+4 magic damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 128,
+    "title": "Siphon Magic",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to make an attack against a PC with a Spellcast trait within Very Close range. On a success, the target marks 1d4 Stress and the Adversary clears that many Stress. Additionally, on a success, the Adversary can immediately be spotlighted again.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 129,
+    "title": "Searing Glance",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When a PC within Close range makes a Presence Roll, you can mark a Stress to cast a gaze toward the aftermath. On the target’s failure, they must mark 2 Stress and are Vulnerable until the scene ends or they succeed on a social action against the Adversary. On the target’s success, they must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 130,
+    "title": "Enervating Blast",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to make a standard attack against a target within range. On a success, the target must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 131,
+    "title": "Shroud of the Fallen",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to wrap an ally within Close range in a shroud of Protection until the Adversary marks their last HP. While Protected, the target has resistance to all damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 132,
+    "title": "Shadow Shackles",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear and choose a point within Far range. All targets within Close range of that point are Restrained in smoky chains until they break free with a successful Strength or Instinct Roll. A target Restrained by this feature must spend a Hope to make an action roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 133,
+    "title": "Fear Is Fuel",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Twice per scene, when a PC rolls a failure with Fear, clear a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 134,
+    "title": "Shadow’s Embrace",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "The Fang can climb and walk on vertical surfaces. Mark a Stress to move from one shadow to another within Far range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 135,
+    "title": "Pick Off the Straggler",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to cause a target within Melee range to make an Instinct Reaction Roll. On a failure, the target must mark 2 Stress and is teleported with the Fang to a shadow within Far range, making them temporarily Vulnerable. On a success, the target must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 136,
+    "title": "Dreadhowl",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make all targets within Very Close range lose a Hope. If a target is not able to lose a Hope, they must instead mark 2 Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 137,
+    "title": "Momentum",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Pack makes a successful attack against a PC, you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 138,
+    "title": "Paralyzing Shock",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make a standard attack against all targets within Very Close range. You gain a Fear for each target that marks HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 139,
+    "title": "Reinforce",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to move into Melee range of an ally and make a standard attack against a target within Very Close range. On a success, deal 2d10+2 physical damage and the ally can clear a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 140,
+    "title": "Vassal’s Loyalty",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Adversary is within Very Close range of a knight or other noble who would take damage, you can mark a Stress to move into Melee range of them and take the damage instead.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 141,
+    "title": "Warped Fortitude",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "the Adversary is resistant to physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 142,
+    "title": "Lurching Lunge",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to spotlight the Adversary as an additional GM move instead of spending Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 143,
+    "title": "Two as One",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Adversary is spotlighted, you can also spotlight a Tier 1 animal adversary currently under their control.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 144,
+    "title": "Pinning Strike",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Make a standard attack against a target. On a success, you can mark a Stress to pin them to a nearby surface. The pinned target is Restrained until they break free with a successful Finesse or Strength Roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 145,
+    "title": "Deadly Companion",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Twice per scene, summon a Adversary, the Adversary the Adversary, or similar Tier 1 animal adversary under the Adversary’s control. The adversary appears at Close range and is immediately spotlighted.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 146,
+    "title": "Battering Ram",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to have the Adversary charge at an inanimate object within Close range they could feasibly smash (such as a wall, cart, or market stand) and destroy it. All targets within Very Close range of the object must succeed on an Agility Reaction Roll or take 2d4+3 physical damage from the shrapnel.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 147,
+    "title": "Bloody Reprisal",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Adversary marks 2 or more HP from an attack within Very Close range, you can make a standard attack against the attacker. On a success, the Adversary deals 2d6+15 physical damage instead of their standard damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 148,
+    "title": "Flight",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "While flying, the Adversary gains a +3 bonus to their Difficulty.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 149,
+    "title": "Deadly Dive",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to attack a target within Far range. On a success, deal 2d10+2 physical damage and knock the target over, making them Vulnerable until they next act.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 150,
+    "title": "Take Off",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Very Close range. On a success, deal 2d4+3 physical damage and the target must succeed on an Agility Reaction Roll or become temporarily Restrained within the Adversary’s massive talons. If the target is Restrained, the Adversary immediately lifts into the air to Very Far range above the battlefield while holding them.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 151,
+    "title": "Deadly Drop",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "While flying, the Adversary can drop a Restrained target they are holding. When dropped, the target is no longer Restrained but starts falling. If their fall isn’t prevented during the PCs’ next action, the target takes 2d20 physical damage when they land.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 152,
+    "title": "Sunsear Arrows",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful standard attack, the target Glows until the end of the scene and can’t become Hidden. Attack rolls made against a Glowing target have advantage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 153,
+    "title": "Crown of Serpents",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Make an attack roll against a target within Melee range using the Adversary’s protective snakes. On a success, mark a Stress to deal 2d10+4 physical damage and the target must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 154,
+    "title": "Petrifying Gaze",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Adversary takes damage from an attack within Close range, you can spend a Fear to force the attacker to make an Instinct Reaction Roll. On a failure, they begin to turn to stone, marking a HP and starting a Petrification Countdown (4). This countdown ticks down when the Adversary is attacked. When it triggers, the target must make a death move. If the Adversary is defeated, all petrification countdowns end.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 155,
+    "title": "Peerless Accuracy",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Before the Adversary makes an attack, roll a d6. On a result of 4 or higher, the target’s Evasion is halved against this attack.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 156,
+    "title": "Mind Dance",
+    "type": "Action",
+    "tiers": [
+      2,
+      3
+    ],
+    "roles": [],
+    "description": "Mark a Stress to create a magically dazzling display that grapples the minds of nearby foes. All targets within Close range must make an Instinct Reaction Roll. For each target who failed, you gain a Fear and the Adversary learns one of the target’s fears.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 157,
+    "title": "Hallucinatory Breath",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Countdown ( Loop 1d6). When the Adversary takes damage for the first time, activate the countdown. When it triggers, the Adversary breathes hallucinatory gas on all targets in front of them up to Far range. Targets must succeed on an Instinct Reaction Roll or be tormented by fearful hallucinations. Targets whose fears are known to the Adversary have disadvantage on this roll. Targets who fail must mark a Stress and lose a Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 158,
+    "title": "Chevalier",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "While the Adversary is on a mount, they gain a +2 bonus to their Difficulty. When they take Severe damage, they’re knocked from their mount and lose this benefit until they’re next spotlighted.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 159,
+    "title": "Heavily Armored",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Adversary takes physical damage, reduce it by 3.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 160,
+    "title": "Cavalry Charge",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "If the Adversary is mounted, move up to Far range and make a standard attack against a target. On a success, deal 2d8+4 physical damage and the target must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 161,
+    "title": "For the Realm!",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to spotlight 1d4+1 allies. Attacks they make while spotlighted in this way deal half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 162,
+    "title": "Quick Hands",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Melee range. On a success, deal 1d8+2 physical damage and the Adversary steals one item or consumable from the target’s inventory.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 163,
+    "title": "Escape Plan",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to reveal a snare trap set anywhere on the battlefield by the Adversary. All targets within Very Close range of the trap must succeed on an Agility Reaction Roll (13) or be pulled off their feet and suspended upside down. A target is Restrained and Vulnerable until they break free, ending both conditions, with a successful Finesse or Strength Roll (13).",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 164,
+    "title": "Everyone Has a Price",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to offer a target a dangerous bargain for something they want or need. If used on a PC, they must make a Presence Reaction Roll (17). On a failure, they must mark 2 Stress or take the deal.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 165,
+    "title": "The Best Muscle Money Can Buy",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Once per scene, mark a Stress to summon 1d4+1 Tier 1 adversaries, who appear at Far range, to enforce the Adversary’s will.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 166,
+    "title": "Charging Bull",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to charge through a group within Close range and make an attack against all targets in the Adversary’s path. Targets the Adversary succeeds against take 2d6+8 physical damage and are knocked back to Very Far range. If a target is knocked into a solid object or another creature, they take an extra 1d6 damage (combine the damage).",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 167,
+    "title": "Gore",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Very Close range, moving the Adversary into Melee range of them. On a success, deal 2d8 direct physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 168,
+    "title": "Terrifying",
+    "type": "Passive",
+    "tiers": [
+      2,
+      3,
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 169,
+    "title": "Deathlock",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to curse a target within Very Close range with a necrotic the Adversary until the end of the scene. Attacks made by the Adversary against a the Adversary target deal direct damage. the Adversary can only maintain one the Adversary at a time.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 170,
+    "title": "Inevitable Death",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to spotlight 1d4 allies. Attacks they make while spotlighted in this way deal half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 171,
+    "title": "Rampage",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Countdown ( Loop 1d6). When the Adversary is in the spotlight for the first time, activate the countdown. When it triggers, move the Adversary in a straight line to a point within Far range and make an attack against all targets in their path. Targets the Adversary succeeds against take 2d8+2 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 172,
+    "title": "Devastating Retort",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "A PC who rolls less than 17 on an action roll targeting the Adversary must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 173,
+    "title": "Bend Ears",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to influence an NPC within Melee range with whispered words. That target’s opinion on one matter shifts toward the Adversary’s preference unless it is in direct opposition to the target’s motives.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 174,
+    "title": "Scapegoat",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to convince a crowd or notable individual that one person or group is responsible for some problem facing the target. The target becomes hostile to the scapegoat until convinced of their innocence with a successful Presence Roll (17).",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 175,
+    "title": "Seize Your Moment",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend 2 Fear to spotlight 1d4 allies. Attacks they make while spotlighted in this way deal half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 176,
+    "title": "Our Master’s Will",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When you spotlight an ally within Far range, mark a Stress to gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 177,
+    "title": "Summoning Ritual",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Countdown (6). When the Secret-the Adversary is in the spotlight for the first time, activate the countdown. When they mark HP, tick up this countdown by the number of HP marked. When it triggers, summon a Minor the Adversary who appears at Close range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 178,
+    "title": "Fallen Hounds",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Once per scene, when the Adversary marks 2 or more HP, you can mark a Stress to summon a Horde, which appears at Close range and is immediately spotlighted.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 179,
+    "title": "Rending Bite",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 180,
+    "title": "Blood in the Water",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When a creature within Close range of the Adversary marks HP from another creature’s attack, you can mark a Stress to immediately spotlight the Adversary, moving them into Melee range of the target and making a standard attack.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 181,
+    "title": "Captive Audience",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "If the Adversary makes a standard attack against a target Entranced by their song, the attack deals 2d10+1 damage instead of their standard damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 182,
+    "title": "Enchanting Song",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to sing a song that affects all targets within Close range. Targets must succeed on an Instinct Reaction Roll or become Entranced until they mark 2 Stress. Other the Adversary within Close range of the target can mark a Stress to each add a +1 bonus to the Difficulty of the reaction roll. While Entranced, a target can’t act and is Vulnerable.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 183,
+    "title": "Ghost",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "the Adversary has resistance to physical damage. Mark a Stress to move up to Close range through solid objects.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 184,
+    "title": "Pick Your Target",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to make an attack within Far range against a PC who is within Very Close range of at least two other PCs. On a success, the target takes 2d8+12 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 185,
+    "title": "Unending Battle",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend 2 Fear to return up to 1d4+1 defeated Spectral allies to the battle at the points where they first appeared (with no marked HP or Stress).",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 186,
+    "title": "Hold Fast",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Adversary’s Spectral allies are forced to make a reaction roll, you can mark a Stress to give those allies a +2 bonus to the roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 187,
+    "title": "Grave Blade",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to make an attack against a target within Very Close range. On a success, deal 2d10+6 physical damage and the target must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 188,
+    "title": "Gathering Secrets",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to describe how the Adversary knows a secret about a PC in the scene.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 189,
+    "title": "Fly on the Wall",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When a PC or group is discussing something sensitive, you can mark a Stress to reveal that the Adversary is present in the scene, observing them. If the Adversary escapes the scene to report their findings, you gain 1d4 Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 190,
+    "title": "Stonestrider",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "the Adversary can move through stone and earth as easily as air. While within stone or earth, they are Hidden and immune to all damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 191,
+    "title": "Rocky Ambush",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "While Hidden, mark a Stress to leap into Melee range with a target within Very Close range. The target must succeed on an Agility or Instinct Reaction Roll (15) or take 2d8 physical damage and become temporarily Restrained.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 192,
+    "title": "Avalanche Roar",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to roar while within a cave and cause a cave-in. All targets within Close range must succeed on an Agility Reaction Roll (14) or take 2d10 physical damage. The rubble can be cleared with a Progress Countdown (8).",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 193,
+    "title": "Battle Teleport",
+    "type": "Passive",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Before or after making a standard attack, you can mark a Stress to teleport to a location within Far range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 194,
+    "title": "Refresh Warding Sphere",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Mark a Stress to refresh the Adversary’s “Warding Sphere” reaction.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 195,
+    "title": "Eruption",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear and choose a point within Far range. A Very Close area around that point erupts into impassable terrain. All targets within that area must make an Agility Reaction Roll (14). Targets who fail take 2d10 physical damage and are thrown out of the area. Targets who succeed take half damage and aren’t moved.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 196,
+    "title": "Arcane Artillery",
+    "type": "Action",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "Spend a Fear to unleash a precise hail of magical blasts. All targets in the scene must make an Agility Reaction Roll. Targets who fail take 2d12 magic damage. Targets who succeed take half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 197,
+    "title": "Warding Sphere",
+    "type": "Reaction",
+    "tiers": [
+      2
+    ],
+    "roles": [],
+    "description": "When the Adversary takes damage from an attack within Close range, deal 2d6 magic damage to the attacker. This reaction can’t be used again until the Adversary refreshes it with their “Refresh Warding Sphere” action.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 198,
+    "title": "Never Misses",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary makes an attack, the target’s Evasion is halved against the attack.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 199,
+    "title": "Deadly Flight",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "While flying, the Adversary can move up to Far range instead of Close range before taking an action.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 200,
+    "title": "Whirlwind",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend a Fear to whirl, making an attack against all targets within Very Close range. Targets the Adversary succeeds against take 3d8 direct physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 201,
+    "title": "Hallucinatory Breath",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Countdown ( Loop 1d6). When the Adversary takes damage for the first time, activate the countdown. When it triggers, the Adversary breathes hallucinatory gas on all targets in front of them up to Far range. Targets must make an Instinct Reaction Roll or be tormented by fearful hallucinations. Targets whose fears are known to the Adversary have disadvantage on this roll. Targets who fail lose 2 Hope and take 3d8+3 direct magic damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 202,
+    "title": "Uncanny Reflexes",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary takes damage from an attack within Close range, you can mark a Stress to take half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 203,
+    "title": "Money Talks",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Attacks against the Adversary are made with disadvantage unless the attacker spends a handful of gold. This the Adversary starts with a number of handfuls equal to the number of PCs. When a target marks HP from the Adversary’s standard attack, they can spend a handful of gold instead of marking HP (1 handful per HP). Add a handful of gold to the Adversary for each handful of gold spent by PCs on this feature.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 204,
+    "title": "Numbers Must Go Up",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Add a bonus to the Adversary’s attack rolls equal to the number of handfuls of gold they have.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 205,
+    "title": "Money Is Time",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend 3 handfuls of gold (or a Fear) to spotlight 1d4+1 allies.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 206,
+    "title": "Depths of Despair",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "the Adversary deals double damage to PCs with 0 Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 207,
+    "title": "Your Struggle Is Pointless",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend a Fear to weigh down the spirits of all PCs within Far range. All targets affected replace their Hope Die with a d8 until they roll a success with Hope or their next rest.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 208,
+    "title": "Your Friends Will Fail You",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When a PC fails with Fear, you can mark a Stress to cause all other PCs within Close range to lose a Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 209,
+    "title": "Terrifying",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful attack, all PCs within Far range must lose a Hope and you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 210,
+    "title": "Double or Nothing",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When a PC within Far range fails a roll, they can choose to reroll their Fear Die and take the new result. If they still fail, they mark 2 Stress and the Adversary clears a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 211,
+    "title": "Unparalleled Skill",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Mark a Stress to deal the Adversary’s standard attack damage to a target within Close range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 212,
+    "title": "The Root of Villainy",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend a Fear to spotlight two other the Adversary within Far range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 213,
+    "title": "You Pale in Comparison",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When a PC fails a roll within Close range of the Adversary, they must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 214,
+    "title": "Unprotected Mind",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "the Adversary’s standard attack deals direct damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 215,
+    "title": "My Turn",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary marks HP from an attack, spend a number of Fear equal to the HP marked by the Adversary to cause the attacker to mark the same number of HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 216,
+    "title": "Rivalry",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When a creature within Close range takes damage from a different adversary, you can mark a Stress to add a d4 to the damage roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 217,
+    "title": "What’s Yours Is Mine",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When a PC takes Severe damage within Very Close range of the Adversary, you can spend a Fear to cause the target to make a Finesse Reaction Roll. On a failure, the Adversary seizes one item or consumable of their choice from the target’s inventory.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 218,
+    "title": "Anger Unrelenting",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "the Adversary’s attacks deal direct damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 219,
+    "title": "Battle Lust",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend a Fear to boil the blood of all PCs within Far range. They use a d20 as their Fear Die until the end of the scene.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 220,
+    "title": "Retaliation",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary takes damage from an attack within Close range, you can mark a Stress to make a standard attack against the attacker.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 221,
+    "title": "Blood and Souls",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Countdown ( Loop 6). Activate the first time an attack is made within sight of the Adversary. It ticks down when a PC takes a violent action. When it triggers, summon 1d4 Minor the Adversary, who appear at Close range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 222,
+    "title": "Flying",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "While flying, the Adversary gains a +3 bonus to their Difficulty.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 223,
+    "title": "Screech",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Mark a Stress to send a high-pitch screech out toward all targets in front of the Adversary within Far range. Those targets must mark 1d4 Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 224,
+    "title": "Guardian",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When an allied the Adversary marks HP, you can mark a Stress to fly into Melee range of the attacker and make an attack with advantage against them. On a success, deal 2d6+2 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 225,
+    "title": "Bramble Patch",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Mark a Stress to target a point within Far range. Create a patch of thorns that covers an area within Close range of that point. All targets within that area take 2d6+2 physical damage when they act. A target must succeed on a Finesse Roll or deal more than 20 damage to the Adversary with an attack to leave the area.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 226,
+    "title": "Grow Saplings",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend a Fear to grow three the Adversary the Adversary Minions, who appear at Close range and immediately take the spotlight.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 227,
+    "title": "We Are All One",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When an ally dies within Close range, you can spend a Fear to clear 2 HP and 2 Stress as the fallen ally’s life force is returned to the forest.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 228,
+    "title": "Crushing Blows",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Elemental makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 229,
+    "title": "Immovable Object",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "An attack that would move the Elemental moves them two fewer ranges (for example, Far becomes Very Close). When the Elemental takes physical damage, reduce it by 7.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 230,
+    "title": "Rockslide",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Mark a Stress to create a rockslide that buries the land in front of Elemental within Close range with rockfall. All targets in this area must make an Agility Reaction Roll (19). Targets who fail take 2d12+5 physical damage and become Vulnerable until their next roll with Hope. Targets who succeed take half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 231,
+    "title": "Water Jet",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Mark a Stress to attack a target within Very Close range. On a success, deal 2d4+7 physical damage and the target’s next action has disadvantage. On a failure, the target must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 232,
+    "title": "Drowning Embrace",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend a Fear to make an attack against all targets within Very Close range. Targets the Elemental succeeds against become Restrained and Vulnerable as they begin drowning. A target can break free, ending both conditions, with a successful Strength or Instinct Roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 233,
+    "title": "High Tide",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Elemental makes a successful standard attack, you can mark a Stress to knock the target back to Close range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 234,
+    "title": "Envelop",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Melee range. On a success, the Adversary Envelops them and the target must mark 2 Stress. While Enveloped, the target must mark an additional Stress every time they make an action roll. When the Adversary takes Severe damage, all Enveloped targets are freed and the condition is cleared.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 235,
+    "title": "Split",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary has 4 or more HP marked, you can spend a Fear to split them into two Green the Adversary (with no marked HP or Stress). Immediately spotlight both of them.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 236,
+    "title": "Many-Headed Menace",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "The Adversary begins with three heads and can have up to five. When the Adversary takes Major or greater damage, they lose a head.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 237,
+    "title": "Regeneration",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "If the Adversary has any marked HP, spend a Fear to clear a HP and grow two heads.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 238,
+    "title": "Terrifying Chorus",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "All PCs within Far range lose 2 Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 239,
+    "title": "Magical Weakness",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary takes magic damage, they become Dazed until the next roll with Fear. While Dazed, they can’t use their Regeneration action but are immune to magic damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 240,
+    "title": "Execute Them!",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend a Fear per PC in the party to have the group condemned for crimes real or imagined. A PC who succeeds on a Presence Roll can demand trial by combat or another special form of trial.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 241,
+    "title": "Crownsguard",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Once per scene, mark a Stress to summon six Tier 3 Minions, who appear at Close range to enforce the Adversary’s will.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 242,
+    "title": "Casus Belli",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Long-Term Countdown (8). Spend a Fear to activate after the Adversary’s desire for war is first revealed. When it triggers, the Adversary has a reason to rally the nation to war and the support to act on that reason. You gain 1d4 Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 243,
+    "title": "From Above",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary succeeds on a standard attack from above a target, they deal 3d12+3 physical damage instead of their standard damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 244,
+    "title": "Blade of the Forest",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend a Fear to make an attack against all targets within Very Close range. Targets the Adversary succeeds against take physical damage equal to 3d4 + the target’s Major threshold.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 245,
+    "title": "Thorny Armor",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary takes damage from an attack within Melee range, you can mark a Stress to deal 1d10+5 physical damage to the attacker.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 246,
+    "title": "Just a Tree",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Before they make their first attack in a fight or after they become Hidden, the Adversary is indistinguishable from other trees until they next act or a PC succeeds on an Instinct Roll to identify them.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 247,
+    "title": "Seed Barrage",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Mark a Stress and make an attack against up to three targets within Close range, pummeling them with giant acorns. Targets the Adversary succeeds against take 2d10+5 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 248,
+    "title": "Take Root",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Mark a Stress to Root the Adversary in place. the Adversary is Restrained while Rooted, and can end this effect instead of moving while they are spotlighted. While Rooted, the Adversary has resistance to physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 249,
+    "title": "Look into My Eyes",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "A creature who moves into Melee range of the Adversary must make an Instinct Reaction Roll. On a failure, you gain 1d4 Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 250,
+    "title": "Feed on Followers",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary is within Melee range of an ally, they can cause the ally to mark a HP. the Adversary then clears a HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 251,
+    "title": "The Hunt Is On",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend 2 Fear to summon 1d4 the Adversary, who appear at Far range and immediately take the spotlight.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 252,
+    "title": "Lifesuck",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary is spotlighted, roll a d8. On a result of 6 or higher, all targets within Very Close range must mark a HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 253,
+    "title": "Draining Bite",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Make an attack against a target within Melee range. On a success, deal 5d4 physical damage. A target who marks HP from this attack loses a Hope and must mark a Stress. the Adversary then clears a HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 254,
+    "title": "Mistform",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary takes physical damage, you can spend a Fear to take half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 255,
+    "title": "Blocking Shield",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Creatures within Melee range of the Adversary have disadvantage on attack rolls against them. Creatures trapped inside the Adversary are immune to this feature.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 256,
+    "title": "Lock Up",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make an attack against a target within Very Close range. On a success, the target is Restrained within the Adversary until freed with a successful Strength Roll (18). While Restrained, the target can only attack the Adversary.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 257,
+    "title": "Kinetic Slam",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Targets who take damage from the Adversary’s standard attack are knocked back to Very Close range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 258,
+    "title": "Box In",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Mark a Stress to choose a target within Very Close range to focus on. That target has disadvantage on attack rolls when they’re within Very Close range of the Adversary. the Adversary can only focus on one target at a time.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 259,
+    "title": "Mana Bolt",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend a Fear to lob explosive magic at a point within Far range. All targets within Very Close range of that point must make an Agility Reaction Roll. Targets who fail take 2d8+20 magic damage and are knocked back to Close range. Targets who succeed take half damage and aren’t knocked back.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 260,
+    "title": "Slow Firing",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When you spotlight the Adversary and they don’t have a token on their stat block, they can’t make a standard attack. Place a token on their stat block and describe what they’re preparing to do. When you spotlight the Adversary and they have a token on their stat block, clear the token and they can attack.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 261,
+    "title": "Mark Target",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend a Fear to Mark a target within Far range until the Adversary is destroyed or the Marked target becomes Hidden. While the target is Marked, their Evasion is halved.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 262,
+    "title": "Concentrate Fire",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When another adversary deals damage to a target within Far range of the Adversary, you can mark a Stress to add the Adversary’s standard attack damage to the damage roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 263,
+    "title": "Detonation",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When the Adversary is destroyed, they explode. All targets within Close range must make an Agility Reaction Roll. Targets who fail take 3d20 physical damage. Targets who succeed take half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 264,
+    "title": "Rend and Crush",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "If a target damaged by the Adversary doesn’t mark an Armor Slot to reduce the damage, they must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 265,
+    "title": "No Hope",
+    "type": "Passive",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When a PC rolls with Fear while within Far range of the Adversary, they lose a Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 266,
+    "title": "Blizzard Breath",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend 2 Fear to release an icy whorl in front of the Adversary within Close range. All targets in this area must make an Agility Reaction Roll. Targets who fail take 4d6+5 magic damage and are Restrained by ice until they break free with a successful Strength Roll. Targets who succeed must mark 2 Stress or take half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 267,
+    "title": "Avalanche",
+    "type": "Action",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "Spend a Fear to have the Adversary unleash a huge downfall of snow and ice, covering all other creatures within Far range. All targets within this area must succeed on an Instinct Reaction Roll or be buried in snow and rocks, becoming Vulnerable until they dig themselves out from the debris. For each PC that fails the reaction roll, you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 268,
+    "title": "Frozen Scales",
+    "type": "Reaction",
+    "tiers": [
+      3
+    ],
+    "roles": [],
+    "description": "When a creature makes a successful attack against the Adversary from within Very Close range, they must mark a Stress and become Chilled until their next rest or they clear a Stress. While they are Chilled, they have disadvantage on attack rolls.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 269,
+    "title": "Dance of Death",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress to spotlight 1d4 allies. Attacks they make while spotlighted in this way deal half damage, or full damage if you spend a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 270,
+    "title": "Beam of Decay",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark 2 Stress to cause all targets within Far range to make a Strength Reaction Roll. Targets who fail take 2d20+12 magic damage and you gain a Fear. Targets who succeed take half damage. A target who marks 2 or more HP must also mark 2 Stress and becomes Vulnerable until they roll with Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 271,
+    "title": "Open the Gates of Death",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Spend a Fear to summon a the Adversary the Adversary, which appears at Close range and immediately takes the spotlight.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 272,
+    "title": "Not Today, My Dears",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary has marked 7 or more of their HP, you can spend a Fear to have them teleport away to a safe location to recover. A PC who succeeds on an Instinct Roll can trace the teleportation magic to their destination.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 273,
+    "title": "Your Life Is Mine",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Countdown ( Loop 2d6). When the Adversary has marked 6 or more of their HP, activate the countdown. When it triggers, deal 2d10+6 direct magic damage to a target within Close range. the Adversary then clears a number of Stress or HP equal to the number of HP marked by the target from this attack.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 274,
+    "title": "Aura of Doom",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When a PC marks HP from an attack by the Adversary the Adversary, they lose a Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 275,
+    "title": "Conflagration",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Spend a Fear to unleash an all-consuming firestorm and make an attack against all targets within Close range. Targets the Adversary succeeds against take 2d10+6 direct magic damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 276,
+    "title": "Nightmare Tableau",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress to trap a target within Far range in a powerful illusion of their worst fears. While trapped, the target is Restrained and Vulnerable until they break free, ending both conditions, with a successful Instinct Roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 277,
+    "title": "Slippery",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary takes damage from an attack, they can teleport up to Far range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 278,
+    "title": "Shackles of Guilt",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Countdown ( Loop 2d6). When the Adversary is in the spotlight for the first time, activate the countdown. When it triggers, all targets within Far range become Vulnerable and must mark a Stress as they relive their greatest regrets. A target can break free from their regret with a successful Presence or Strength Roll. When a PC fails to break free, they lose a Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 279,
+    "title": "Firespite Plate Armor",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Realm-the Adversary takes damage, reduce it by 2d10.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 280,
+    "title": "Tormenting Lash",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make a standard attack against all targets within Very Close range. When a target uses armor to reduce damage from this attack, they must mark 2 Armor Slots.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 281,
+    "title": "All-Consuming Rage",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Countdown (Decreasing 8). When the Realm-the Adversary is in the spotlight for the first time, activate the countdown. When it triggers, create a torrent of incarnate rage that rends flesh from bone. All targets within Far range must make a Presence Reaction Roll. Targets who fail take 2d6+10 direct magic damage. Targets who succeed take half damage. For each HP marked from this damage, summon a the Adversary the Adversary the Adversary within Very Close range of the target who marked that HP. If the countdown ever decreases its maximum value to 0, the Realm-the Adversary marks their remaining HP and all targets within Far range must mark all remaining HP and make a death move.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 282,
+    "title": "Doombringer",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When a target marks HP from an attack by the Adversary, all PCs within Far range of the target must lose a Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 283,
+    "title": "I Have Never Known Defeat",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Realm-the Adversary marks their last HP, replace them with the Adversary and immediately spotlight them.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 284,
+    "title": "Faltering Armor",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary takes damage, reduce it by 1d10.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 285,
+    "title": "Shattering Strike",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make a standard attack against all targets within Very Close range. PCs the Adversary succeeds against lose a number of Hope equal to the HP they marked from this attack.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 286,
+    "title": "Endless Legions",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Spend a Fear to summon a number of the Adversary the Adversary the Adversary equal to twice the number of PCs. the Adversary the Adversary appear at Far range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 287,
+    "title": "Circle of Defilement",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Countdown (1d8). When the Adversary is in the spotlight for the first time, activate the countdown. When it triggers, activate a magical circle covering an area within Far range of the Adversary. A target within that area is Vulnerable until they leave the circle. The circle can be removed by dealing Severe damage to the Adversary.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 288,
+    "title": "Momentum",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful attack against a PC, you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 289,
+    "title": "Doombringer",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When a target marks HP from an attack by the Adversary, all PCs within Far range of the target lose a Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 290,
+    "title": "Punish the Guilty",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "the Adversary deals double damage to targets marked Guilty by a High the Adversary.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 291,
+    "title": "Divine Volley",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make a standard attack against up to three targets.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 292,
+    "title": "Divine Flight",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "While the Adversary is flying, spend a Fear to move up to Far range instead of Close range before taking an action.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 293,
+    "title": "Divine Flight",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "While the Adversary is flying, spend a Fear to move up to Far range instead of Close range before taking an action.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 294,
+    "title": "Judgment",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Spend a Fear to make a target Guilty in the eyes of the Adversary’s god until the Adversary is defeated. While Guilty, the target doesn’t gain Hope on a result with Hope. When the Adversary succeeds on a standard attack against a Guilty target, they deal Severe damage instead of their standard damage. the Adversary can only mark one target at a time.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 295,
+    "title": "God Rays",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress to reflect a sliver of divinity as a searing beam of light that hits up to twenty targets within Very Far range. Targets must make a Presence Reaction Roll, with disadvantage if they are marked Guilty. Targets who fail take 4d6+12 magic damage. Targets who succeed take half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 296,
+    "title": "We Are One",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Once per scene, spend a Fear to spotlight all other adversaries within Far range. Attacks they make while spotlighted in this way deal half damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 297,
+    "title": "Many Tentacles",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "While the Adversary has 7 or fewer marked HP, they can make their standard attack against two targets within range.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 298,
+    "title": "Grapple and Drown",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Make an attack roll against a target within Close range. On a success, mark a Stress to grab them with a tentacle and drag them beneath the water. The target is Restrained and Vulnerable until they break free with a successful Strength Roll or the Adversary takes Major or greater damage. While Restrained and Vulnerable in this way, a target must mark a Stress when they make an action roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 299,
+    "title": "Boiling Blast",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Spend a Fear to spew a line of boiling water at any number of targets in a line up to Far range. All targets must succeed on an Agility Reaction Roll or take 4d6+9 physical damage. If a target marks an Armor Slot to reduce the damage, they must also mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 300,
+    "title": "Terrifying",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 301,
+    "title": "Walls Closing In",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When a creature rolls a failure while within Very Far range of the Adversary, they must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 302,
+    "title": "Pronounce Fate",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Spend a Fear to present a target within Far range with a vision of their personal nightmare. The target must make a Knowledge Reaction Roll. On a failure, they lose all Hope and take 2d20+4 direct magic damage. On a success, they take half damage and lose a Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 303,
+    "title": "Summon Tormentors",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Once per day, spend 2 Fear to summon 2d4 Tier 2 or below Minions relevant to one of the PC’s personal nightmares. They appear at Close range relative to that PC.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 304,
+    "title": "Ominous Knowledge",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary sees a mortal creature, they instantly know one of their personal nightmares.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 305,
+    "title": "Vengeful Fate",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary marks HP from an attack within Very Close range, you can mark a Stress to knock the attacker back to Far range and deal 2d10+4 physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 306,
+    "title": "Chaotic Form",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary attacks, roll 2d4 and use the result as their attack modifier.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 307,
+    "title": "Disorienting Presence",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When a target takes damage from the Adversary, they must make an Instinct Reaction Roll. On a failure, they gain disadvantage on their next action roll and you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 308,
+    "title": "Reality Quake",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Spend a Fear to rattle the edges of reality within Far range of the Adversary. All targets within that area must succeed on a Knowledge Reaction Roll or become Unstuck from reality until the end of the scene. When an Unstuck target spends Hope or marks Armor Slots, HP, or Stress, they must double the amount spent or marked.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 309,
+    "title": "Unreal Form",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary takes damage, reduce it by 1d20. If the Adversary marks 1 or fewer Hit Points from a successful attack against them, you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 310,
+    "title": "Will-Shattering Touch",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When a PC takes damage from the Adversary, they lose a Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 311,
+    "title": "Disgorge Reality Flotsam",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress to spew partially digested portions of consumed realities at all targets within Close range. Targets must succeed on a Knowledge Reaction Roll or mark 2 Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 312,
+    "title": "Group Attack",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Spend a Fear to choose a target and spotlight all the Adversary Realm the Adversary within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 11 physical damage each. Combine this damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 313,
+    "title": "Flying",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "While flying, the Adversary gains a +3 bonus to their Difficulty.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 314,
+    "title": "Obsidian Scales",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "the Adversary is resistant to physical damage.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 315,
+    "title": "Avalanche Tail",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make an attack against all targets within Close range. Targets the Adversary succeeds against take 4d6+4 physical damage and are knocked back to Far range and Vulnerable until their next roll with Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 316,
+    "title": "Dive-Bomb",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "If the Adversary is flying, mark a Stress to choose a point within Far range. Move to that point and make an attack against all targets within Very Close range. Targets the Adversary succeeds against take 2d10+6 physical damage and must mark a Stress and lose a Hope.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 317,
+    "title": "Erupting Rage",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary marks their last HP, replace them with the Adversary and immediately spotlight them.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 318,
+    "title": "Cracked Scales",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary takes damage, roll a number of d6s equal to HP marked. For each result of 4 or higher, you gain a Fear.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 319,
+    "title": "Shattering Might",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make an attack against a target within Very Close range. On a success, the target takes 4d8+1 physical damage, loses a Hope, and is knocked back to Close range. the Adversary clears a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 320,
+    "title": "Eruption",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Spend a Fear to erupt lava from beneath the Adversary’s scales, filling the area within Very Close range with molten lava. All targets in that area must succeed on an Agility Reaction Roll or take 4d6+6 physical damage and be knocked back to Close range. This area remains lava. When a creature other than the Adversary enters that area or acts while inside of it, they must mark 6 HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 321,
+    "title": "Volcanic Breath",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary takes Major damage, roll a d10. On a result of 8 or higher, the Adversary breathes a flow of lava in front of them within Far range. All targets in that area must make an Agility Reaction Roll. Targets who fail take 2d10+4 physical damage, mark 1d4 Stress, and are Vulnerable until they clear a Stress. Targets who succeed take half damage and must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 322,
+    "title": "Lava Splash",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary takes Severe damage from an attack within Very Close range, molten blood gushes from the wound and deals 2d10+4 direct physical damage to the attacker.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 323,
+    "title": "Ashen Vengeance",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When the Adversary marks their last HP, replace them with the Adversary and immediately spotlight them.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 324,
+    "title": "Cornered",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress instead of spending a Fear to spotlight the Adversary.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 325,
+    "title": "Injured Wings",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "While flying, the Adversary gains a +1 bonus to their Difficulty.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 326,
+    "title": "Ashes to Ashes",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When a PC rolls a failure while within Close range of the Adversary, they lose a Hope and you gain a Fear. If the PC can’t lose a Hope, they must mark a HP.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 327,
+    "title": "Desperate Rampage",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make an attack against all targets within Close range. Targets the Adversary succeeds against take 2d20+2 physical damage, are knocked back to Close range of where they were, and must mark a Stress.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 328,
+    "title": "Ashen Cloud",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Spend a Fear to smash the ground and kick up ash within Far range. While within the ash cloud, a target has disadvantage on action rolls. The ash cloud clears the next time an adversary is spotlighted.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 329,
+    "title": "Apocalyptic Thrashing",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Countdown (1d12). Spend a Fear to activate. It ticks down when a PC rolls with Fear. When it triggers, the Adversary thrashes about, causing environmental damage (such as an earthquake, avalanche, or collapsing walls). All targets within Far range must make a Strength Reaction Roll. Targets who fail take 2d10+10 physical damage and are Restrained by the rubble until they break free with a successful Strength Roll. Targets who succeed take half damage. If the Adversary is defeated while this countdown is active, trigger the countdown immediately as the destruction caused by their death throes.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 330,
+    "title": "Fearsome Presence",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "PCs can’t spend Hope use features against the Adversary.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 331,
+    "title": "Perfect Strike",
+    "type": "Action",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "Mark a Stress to make a standard attack against all targets within Very Close range. Targets the Adversary succeeds against are Vulnerable until their next rest.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 332,
+    "title": "Skilled Opportunist",
+    "type": "Reaction",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "When another adversary deals damage to a target within Very Close range of the Adversary, you can spend a Fear to add the Adversary’s standard attack damage to the damage roll.",
+    "tags": [],
+    "isOfficial": true
+  },
+  {
+    "id": 333,
+    "title": "Unyielding",
+    "type": "Passive",
+    "tiers": [
+      4
+    ],
+    "roles": [],
+    "description": "the Adversary has resistance to physical damage.",
+    "tags": [],
+    "isOfficial": true
+  }
+]

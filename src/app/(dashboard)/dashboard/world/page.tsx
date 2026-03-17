@@ -15,7 +15,7 @@ export default function WorldCreatorHomePage() {
         <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
           <h3 className="text-lg text-amber-200">Quick Actions</h3>
           <div className="flex flex-wrap gap-2">
-            <Link href="/dashboard/adversaries" className="btn-outline min-h-11 px-3 py-2 text-sm">
+            <Link href="/dashboard/adversaries/new" className="btn-outline min-h-11 px-3 py-2 text-sm">
               Open Adversary Builder
             </Link>
             <Link href="/dashboard/world/weapons" className="btn-outline min-h-11 px-3 py-2 text-sm">
