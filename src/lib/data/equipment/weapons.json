@@ -1,17 +1,17 @@
 [
   {
-    "id": "weapon-longsword",
-    "lineageKey": "weapon-longsword",
-    "slug": "longsword",
-    "name": "Longsword",
+    "id": "weapon-broadsword",
+    "lineageKey": "weapon-broadsword",
+    "slug": "broadsword",
+    "name": "Broadsword",
     "tier": 1,
     "weaponCategory": "primary",
-    "weaponSubtype": "blade",
+    "weaponSubtype": "standard",
     "requiresSpellcast": false,
     "burdenHands": 1,
     "defaultProfile": {
-      "label": "Standard Strike",
-      "traitMode": "strength",
+      "label": "Standard Attack",
+      "traitMode": "agility",
       "rangeBand": "melee",
       "damageFormula": "d8",
       "damageType": "physical"
@@ -19,8 +19,130 @@
     "alternateProfiles": [],
     "sheetModifiers": {},
     "featureName": null,
-    "featureText": "Reliable edge that gains +1 damage when fighting one-on-one.",
-    "tags": ["weapon", "blade", "martial"],
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-longsword",
+    "lineageKey": "weapon-longsword",
+    "slug": "longsword",
+    "name": "Longsword",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-battleaxe",
+    "lineageKey": "weapon-battleaxe",
+    "slug": "battleaxe",
+    "name": "Battleaxe",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-greatsword",
+    "lineageKey": "weapon-greatsword",
+    "slug": "greatsword",
+    "name": "Greatsword",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Massive: -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-mace",
+    "lineageKey": "weapon-mace",
+    "slug": "mace",
+    "name": "Mace",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d8+1",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
     "sourceBook": "DH-SRD-May202025",
     "sourcePage": 45
   },
@@ -31,21 +153,114 @@
     "name": "Warhammer",
     "tier": 1,
     "weaponCategory": "primary",
-    "weaponSubtype": "hammer",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d12+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-dagger",
+    "lineageKey": "weapon-dagger",
+    "slug": "dagger",
+    "name": "Dagger",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
     "requiresSpellcast": false,
     "burdenHands": 1,
     "defaultProfile": {
-      "label": "Crushing Blow",
-      "traitMode": "strength",
+      "label": "Standard Attack",
+      "traitMode": "finesse",
       "rangeBand": "melee",
-      "damageFormula": "d10",
+      "damageFormula": "d8+1",
       "damageType": "physical"
     },
     "alternateProfiles": [],
     "sheetModifiers": {},
     "featureName": null,
-    "featureText": "Shattering blow can stagger armored targets.",
-    "tags": ["weapon", "hammer", "martial"],
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-quarterstaff",
+    "lineageKey": "weapon-quarterstaff",
+    "slug": "quarterstaff",
+    "name": "Quarterstaff",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "melee",
+      "damageFormula": "d10+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-cutlass",
+    "lineageKey": "weapon-cutlass",
+    "slug": "cutlass",
+    "name": "Cutlass",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "melee",
+      "damageFormula": "d8+1",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
     "sourceBook": "DH-SRD-May202025",
     "sourcePage": 45
   },
@@ -56,12 +271,12 @@
     "name": "Rapier",
     "tier": 1,
     "weaponCategory": "primary",
-    "weaponSubtype": "blade",
+    "weaponSubtype": "standard",
     "requiresSpellcast": false,
     "burdenHands": 1,
     "defaultProfile": {
-      "label": "Precise Thrust",
-      "traitMode": "finesse",
+      "label": "Standard Attack",
+      "traitMode": "presence",
       "rangeBand": "melee",
       "damageFormula": "d8",
       "damageType": "physical"
@@ -69,8 +284,78 @@
     "alternateProfiles": [],
     "sheetModifiers": {},
     "featureName": null,
-    "featureText": "Precise thrusts grant +1 against exposed enemies.",
-    "tags": ["weapon", "blade", "duelist"],
+    "featureText": "Quick: When you make an attack, you can mark a Stress to target another creature within range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-halberd",
+    "lineageKey": "weapon-halberd",
+    "slug": "halberd",
+    "name": "Halberd",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+2",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-spear",
+    "lineageKey": "weapon-spear",
+    "slug": "spear",
+    "name": "Spear",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+2",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
     "sourceBook": "DH-SRD-May202025",
     "sourcePage": 45
   },
@@ -81,23 +366,27 @@
     "name": "Shortbow",
     "tier": 1,
     "weaponCategory": "primary",
-    "weaponSubtype": "bow",
+    "weaponSubtype": "standard",
     "requiresSpellcast": false,
     "burdenHands": 2,
     "defaultProfile": {
-      "label": "Arrow Shot",
+      "label": "Standard Attack",
       "traitMode": "agility",
       "rangeBand": "far",
-      "damageFormula": "d8",
+      "damageFormula": "d6+3",
       "damageType": "physical"
     },
     "alternateProfiles": [],
     "sheetModifiers": {},
     "featureName": null,
-    "featureText": "Quick draw lets you reposition before or after the shot.",
-    "tags": ["weapon", "bow", "ranged"],
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
     "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 46
+    "sourcePage": 45
   },
   {
     "id": "weapon-crossbow",
@@ -106,70 +395,277 @@
     "name": "Crossbow",
     "tier": 1,
     "weaponCategory": "primary",
-    "weaponSubtype": "crossbow",
+    "weaponSubtype": "standard",
     "requiresSpellcast": false,
-    "burdenHands": 2,
+    "burdenHands": 1,
     "defaultProfile": {
-      "label": "Bolt Shot",
-      "traitMode": "agility",
+      "label": "Standard Attack",
+      "traitMode": "finesse",
       "rangeBand": "far",
-      "damageFormula": "d10",
+      "damageFormula": "d6+1",
       "damageType": "physical"
     },
     "alternateProfiles": [],
     "sheetModifiers": {},
     "featureName": null,
-    "featureText": "High-impact bolt ignores minor cover.",
-    "tags": ["weapon", "crossbow", "ranged"],
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
     "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 46
+    "sourcePage": 45
   },
   {
-    "id": "weapon-staff",
-    "lineageKey": "weapon-staff",
-    "slug": "arcane-staff",
-    "name": "Arcane Staff",
+    "id": "weapon-longbow",
+    "lineageKey": "weapon-longbow",
+    "slug": "longbow",
+    "name": "Longbow",
     "tier": 1,
     "weaponCategory": "primary",
-    "weaponSubtype": "staff",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "very_far",
+      "damageFormula": "d8+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-arcane-gauntlets",
+    "lineageKey": "weapon-arcane-gauntlets",
+    "slug": "arcane-gauntlets",
+    "name": "Arcane Gauntlets",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
     "requiresSpellcast": true,
     "burdenHands": 2,
     "defaultProfile": {
-      "label": "Arcane Bolt",
-      "traitMode": "spellcast",
-      "rangeBand": "far",
-      "damageFormula": "d8",
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+3",
       "damageType": "magical"
     },
-    "alternateProfiles": [
-      {
-        "label": "Staff Sweep",
-        "traitMode": "strength",
-        "rangeBand": "melee",
-        "damageFormula": "d6",
-        "damageType": "physical"
-      }
-    ],
+    "alternateProfiles": [],
     "sheetModifiers": {},
     "featureName": null,
-    "featureText": "Channeling focus lets you reroll one low die each turn.",
-    "tags": ["weapon", "staff", "arcane"],
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
     "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 47
+    "sourcePage": 45
   },
   {
-    "id": "weapon-sigil-orb",
-    "lineageKey": "weapon-sigil-orb",
-    "slug": "sigil-orb",
-    "name": "Sigil Orb",
+    "id": "weapon-hallowed-axe",
+    "lineageKey": "weapon-hallowed-axe",
+    "slug": "hallowed-axe",
+    "name": "Hallowed Axe",
     "tier": 1,
     "weaponCategory": "primary",
-    "weaponSubtype": "focus",
+    "weaponSubtype": "standard",
     "requiresSpellcast": true,
     "burdenHands": 1,
     "defaultProfile": {
-      "label": "Sigil Pulse",
-      "traitMode": "spellcast",
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d8+1",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-glowing-rings",
+    "lineageKey": "weapon-glowing-rings",
+    "slug": "glowing-rings",
+    "name": "Glowing Rings",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+1",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-hand-runes",
+    "lineageKey": "weapon-hand-runes",
+    "slug": "hand-runes",
+    "name": "Hand Runes",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "very_close",
+      "damageFormula": "d10",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-returning-blade",
+    "lineageKey": "weapon-returning-blade",
+    "slug": "returning-blade",
+    "name": "Returning Blade",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "close",
+      "damageFormula": "d8",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Returning: When this weapon is thrown within its range, it appears in your hand immediately after the attack.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-shortstaff",
+    "lineageKey": "weapon-shortstaff",
+    "slug": "shortstaff",
+    "name": "Shortstaff",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "close",
+      "damageFormula": "d8+1",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-dualstaff",
+    "lineageKey": "weapon-dualstaff",
+    "slug": "dualstaff",
+    "name": "Dualstaff",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "far",
+      "damageFormula": "d6+3",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-scepter",
+    "lineageKey": "weapon-scepter",
+    "slug": "scepter",
+    "name": "Scepter",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
       "rangeBand": "far",
       "damageFormula": "d6",
       "damageType": "magical"
@@ -177,23 +673,3510 @@
     "alternateProfiles": [],
     "sheetModifiers": {},
     "featureName": null,
-    "featureText": "Marks a foe; allies gain +1 when attacking that target.",
-    "tags": ["weapon", "focus", "arcane"],
+    "featureText": "Versatile: This weapon can also be used with these statistics-Presence, Melee, d8.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-wand",
+    "lineageKey": "weapon-wand",
+    "slug": "wand",
+    "name": "Wand",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "knowledge",
+      "rangeBand": "far",
+      "damageFormula": "d6+1",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-greatstaff",
+    "lineageKey": "weapon-greatstaff",
+    "slug": "greatstaff",
+    "name": "Greatstaff",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "knowledge",
+      "rangeBand": "very_far",
+      "damageFormula": "d6",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Powerful: On a successful attack, roll an additional damage die and discard the lowest result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 45
+  },
+  {
+    "id": "weapon-improved-broadsword",
+    "lineageKey": "weapon-improved-broadsword",
+    "slug": "improved-broadsword",
+    "name": "Improved Broadsword",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-longsword",
+    "lineageKey": "weapon-improved-longsword",
+    "slug": "improved-longsword",
+    "name": "Improved Longsword",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-battleaxe",
+    "lineageKey": "weapon-improved-battleaxe",
+    "slug": "improved-battleaxe",
+    "name": "Improved Battleaxe",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-greatsword",
+    "lineageKey": "weapon-improved-greatsword",
+    "slug": "improved-greatsword",
+    "name": "Improved Greatsword",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Massive: -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-mace",
+    "lineageKey": "weapon-improved-mace",
+    "slug": "improved-mace",
+    "name": "Improved Mace",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d8+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-warhammer",
+    "lineageKey": "weapon-improved-warhammer",
+    "slug": "improved-warhammer",
+    "name": "Improved Warhammer",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d12+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-dagger",
+    "lineageKey": "weapon-improved-dagger",
+    "slug": "improved-dagger",
+    "name": "Improved Dagger",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "melee",
+      "damageFormula": "d8+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-quarterstaff",
+    "lineageKey": "weapon-improved-quarterstaff",
+    "slug": "improved-quarterstaff",
+    "name": "Improved Quarterstaff",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "melee",
+      "damageFormula": "d10+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-cutlass",
+    "lineageKey": "weapon-improved-cutlass",
+    "slug": "improved-cutlass",
+    "name": "Improved Cutlass",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "melee",
+      "damageFormula": "d8+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-rapier",
+    "lineageKey": "weapon-improved-rapier",
+    "slug": "improved-rapier",
+    "name": "Improved Rapier",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "melee",
+      "damageFormula": "d8+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Quick: When you make an attack, you can mark a Stress to target another creature within range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-halberd",
+    "lineageKey": "weapon-improved-halberd",
+    "slug": "improved-halberd",
+    "name": "Improved Halberd",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+5",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-spear",
+    "lineageKey": "weapon-improved-spear",
+    "slug": "improved-spear",
+    "name": "Improved Spear",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+5",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-shortbow",
+    "lineageKey": "weapon-improved-shortbow",
+    "slug": "improved-shortbow",
+    "name": "Improved Shortbow",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "far",
+      "damageFormula": "d6+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-crossbow",
+    "lineageKey": "weapon-improved-crossbow",
+    "slug": "improved-crossbow",
+    "name": "Improved Crossbow",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "far",
+      "damageFormula": "d6+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-longbow",
+    "lineageKey": "weapon-improved-longbow",
+    "slug": "improved-longbow",
+    "name": "Improved Longbow",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "very_far",
+      "damageFormula": "d8+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-gilded-falchion",
+    "lineageKey": "weapon-gilded-falchion",
+    "slug": "gilded-falchion",
+    "name": "Gilded Falchion",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Powerful: On a successful attack, roll an additional damage die and discard the lowest result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-knuckle-blades",
+    "lineageKey": "weapon-knuckle-blades",
+    "slug": "knuckle-blades",
+    "name": "Knuckle Blades",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Brutal: When you roll the maximum value on a damage die, roll an additional damage die.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-urok-broadsword",
+    "lineageKey": "weapon-urok-broadsword",
+    "slug": "urok-broadsword",
+    "name": "Urok Broadsword",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "melee",
+      "damageFormula": "d8+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Deadly: When you deal Severe damage, the target must mark an additional HP.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-bladed-whip",
+    "lineageKey": "weapon-bladed-whip",
+    "slug": "bladed-whip",
+    "name": "Bladed Whip",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "very_close",
+      "damageFormula": "d8+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Quick: When you make an attack, you can mark a Stress to target another creature within range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-steelforged-halberd",
+    "lineageKey": "weapon-steelforged-halberd",
+    "slug": "steelforged-halberd",
+    "name": "Steelforged Halberd",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "very_close",
+      "damageFormula": "d8+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Scary: On a successful attack, the target must mark a Stress.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-war-scythe",
+    "lineageKey": "weapon-war-scythe",
+    "slug": "war-scythe",
+    "name": "War Scythe",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "very_close",
+      "damageFormula": "d8+5",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-blunderbuss",
+    "lineageKey": "weapon-blunderbuss",
+    "slug": "blunderbuss",
+    "name": "Blunderbuss",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "close",
+      "damageFormula": "d8+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reloading: After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-greatbow",
+    "lineageKey": "weapon-greatbow",
+    "slug": "greatbow",
+    "name": "Greatbow",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "far",
+      "damageFormula": "d6+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Powerful: On a successful attack, roll an additional damage die and discard the lowest result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-finehair-bow",
+    "lineageKey": "weapon-finehair-bow",
+    "slug": "finehair-bow",
+    "name": "Finehair Bow",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "very_far",
+      "damageFormula": "d6+5",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 46
+  },
+  {
+    "id": "weapon-improved-arcane-gauntlets",
+    "lineageKey": "weapon-improved-arcane-gauntlets",
+    "slug": "improved-arcane-gauntlets",
+    "name": "Improved Arcane Gauntlets",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+6",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
     "sourceBook": "DH-SRD-May202025",
     "sourcePage": 47
   },
   {
-    "id": "weapon-daggers",
-    "lineageKey": "weapon-daggers",
-    "slug": "twin-daggers",
-    "name": "Twin Daggers",
-    "tier": 1,
-    "weaponCategory": "secondary",
-    "weaponSubtype": "blade",
+    "id": "weapon-improved-hallowed-axe",
+    "lineageKey": "weapon-improved-hallowed-axe",
+    "slug": "improved-hallowed-axe",
+    "name": "Improved Hallowed Axe",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d8+4",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-improved-glowing-rings",
+    "lineageKey": "weapon-improved-glowing-rings",
+    "slug": "improved-glowing-rings",
+    "name": "Improved Glowing Rings",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+5",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-improved-hand-runes",
+    "lineageKey": "weapon-improved-hand-runes",
+    "slug": "improved-hand-runes",
+    "name": "Improved Hand Runes",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+3",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-improved-returning-blade",
+    "lineageKey": "weapon-improved-returning-blade",
+    "slug": "improved-returning-blade",
+    "name": "Improved Returning Blade",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "close",
+      "damageFormula": "d8+3",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Returning: When this weapon is thrown within its range, it appears in your hand immediately after the attack.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-improved-shortstaff",
+    "lineageKey": "weapon-improved-shortstaff",
+    "slug": "improved-shortstaff",
+    "name": "Improved Shortstaff",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "close",
+      "damageFormula": "d8+4",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-improved-dualstaff",
+    "lineageKey": "weapon-improved-dualstaff",
+    "slug": "improved-dualstaff",
+    "name": "Improved Dualstaff",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "far",
+      "damageFormula": "d6+6",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-improved-scepter",
+    "lineageKey": "weapon-improved-scepter",
+    "slug": "improved-scepter",
+    "name": "Improved Scepter",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "far",
+      "damageFormula": "d6+3",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Versatile: This weapon can also be used with these statistics-Presence, Melee, d8+3.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-improved-wand",
+    "lineageKey": "weapon-improved-wand",
+    "slug": "improved-wand",
+    "name": "Improved Wand",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "knowledge",
+      "rangeBand": "far",
+      "damageFormula": "d6+4",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-improved-greatstaff",
+    "lineageKey": "weapon-improved-greatstaff",
+    "slug": "improved-greatstaff",
+    "name": "Improved Greatstaff",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "knowledge",
+      "rangeBand": "very_far",
+      "damageFormula": "d6+3",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Powerful: On a successful attack, roll an additional damage die and discard the lowest result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-ego-blade",
+    "lineageKey": "weapon-ego-blade",
+    "slug": "ego-blade",
+    "name": "Ego Blade",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d12+4",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Pompous: You must have a Presence of 0 or lower to use this weapon.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-casting-sword",
+    "lineageKey": "weapon-casting-sword",
+    "slug": "casting-sword",
+    "name": "Casting Sword",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+4",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Versatile: This weapon can also be used with these statistics-Knowledge, Far, d6+3.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-devouring-dagger",
+    "lineageKey": "weapon-devouring-dagger",
+    "slug": "devouring-dagger",
+    "name": "Devouring Dagger",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "melee",
+      "damageFormula": "d8+4",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Scary: On a successful attack, the target must mark a Stress.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-hammer-of-exota",
+    "lineageKey": "weapon-hammer-of-exota",
+    "slug": "hammer-of-exota",
+    "name": "Hammer of Exota",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "melee",
+      "damageFormula": "d8+6",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Eruptive: On a successful attack against a target within Melee range, all other adversaries within Very Close range must succeed on a reaction roll (14) or take half damage.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-yutari-bloodbow",
+    "lineageKey": "weapon-yutari-bloodbow",
+    "slug": "yutari-bloodbow",
+    "name": "Yutari Bloodbow",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "far",
+      "damageFormula": "d6+4",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Brutal: When you roll the maximum value on a damage die, roll an additional damage die.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-elder-bow",
+    "lineageKey": "weapon-elder-bow",
+    "slug": "elder-bow",
+    "name": "Elder Bow",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "far",
+      "damageFormula": "d6+4",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Powerful: On a successful attack, roll an additional damage die and discard the lowest result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-scepter-of-elias",
+    "lineageKey": "weapon-scepter-of-elias",
+    "slug": "scepter-of-elias",
+    "name": "Scepter of Elias",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "far",
+      "damageFormula": "d6+3",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Invigorating: On a successful attack, roll a d4. On a result of 4, clear a Stress.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-wand-of-enthrallment",
+    "lineageKey": "weapon-wand-of-enthrallment",
+    "slug": "wand-of-enthrallment",
+    "name": "Wand of Enthrallment",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "far",
+      "damageFormula": "d6+4",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Persuasive: Before you make a Presence Roll, you can mark a Stress to gain a +2 bonus to the result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-keeper-s-staff",
+    "lineageKey": "weapon-keeper-s-staff",
+    "slug": "keeper-s-staff",
+    "name": "Keeper's Staff",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "knowledge",
+      "rangeBand": "far",
+      "damageFormula": "d6+4",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 47
+  },
+  {
+    "id": "weapon-advanced-broadsword",
+    "lineageKey": "weapon-advanced-broadsword",
+    "slug": "advanced-broadsword",
+    "name": "Advanced Broadsword",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
     "requiresSpellcast": false,
     "burdenHands": 1,
     "defaultProfile": {
-      "label": "Twin Strike",
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-longsword",
+    "lineageKey": "weapon-advanced-longsword",
+    "slug": "advanced-longsword",
+    "name": "Advanced Longsword",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-battleaxe",
+    "lineageKey": "weapon-advanced-battleaxe",
+    "slug": "advanced-battleaxe",
+    "name": "Advanced Battleaxe",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-greatsword",
+    "lineageKey": "weapon-advanced-greatsword",
+    "slug": "advanced-greatsword",
+    "name": "Advanced Greatsword",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Massive: -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-mace",
+    "lineageKey": "weapon-advanced-mace",
+    "slug": "advanced-mace",
+    "name": "Advanced Mace",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d8+7",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-warhammer",
+    "lineageKey": "weapon-advanced-warhammer",
+    "slug": "advanced-warhammer",
+    "name": "Advanced Warhammer",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d12+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-dagger",
+    "lineageKey": "weapon-advanced-dagger",
+    "slug": "advanced-dagger",
+    "name": "Advanced Dagger",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "melee",
+      "damageFormula": "d8+7",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-quarterstaff",
+    "lineageKey": "weapon-advanced-quarterstaff",
+    "slug": "advanced-quarterstaff",
+    "name": "Advanced Quarterstaff",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "melee",
+      "damageFormula": "d10+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-cutlass",
+    "lineageKey": "weapon-advanced-cutlass",
+    "slug": "advanced-cutlass",
+    "name": "Advanced Cutlass",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "melee",
+      "damageFormula": "d8+7",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-rapier",
+    "lineageKey": "weapon-advanced-rapier",
+    "slug": "advanced-rapier",
+    "name": "Advanced Rapier",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "melee",
+      "damageFormula": "d8+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Quick: When you make an attack, you can mark a Stress to target another creature within range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-halberd",
+    "lineageKey": "weapon-advanced-halberd",
+    "slug": "advanced-halberd",
+    "name": "Advanced Halberd",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+8",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-spear",
+    "lineageKey": "weapon-advanced-spear",
+    "slug": "advanced-spear",
+    "name": "Advanced Spear",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+8",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-shortbow",
+    "lineageKey": "weapon-advanced-shortbow",
+    "slug": "advanced-shortbow",
+    "name": "Advanced Shortbow",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "far",
+      "damageFormula": "d6+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-crossbow",
+    "lineageKey": "weapon-advanced-crossbow",
+    "slug": "advanced-crossbow",
+    "name": "Advanced Crossbow",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "far",
+      "damageFormula": "d6+7",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-advanced-longbow",
+    "lineageKey": "weapon-advanced-longbow",
+    "slug": "advanced-longbow",
+    "name": "Advanced Longbow",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "very_far",
+      "damageFormula": "d8+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-flickerfly-blade",
+    "lineageKey": "weapon-flickerfly-blade",
+    "slug": "flickerfly-blade",
+    "name": "Flickerfly Blade",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+5",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Sharpwing: Gain a bonus to your damage rolls equal to your Agility.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-bravesword",
+    "lineageKey": "weapon-bravesword",
+    "slug": "bravesword",
+    "name": "Bravesword",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d12+7",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Brave: -1 to Evasion; +3 to Severe damage threshold",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-hammer-of-wrath",
+    "lineageKey": "weapon-hammer-of-wrath",
+    "slug": "hammer-of-wrath",
+    "name": "Hammer of Wrath",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+7",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Devastating: Before you make an attack roll, you can mark a Stress to use a d20 as your damage die.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-labrys-axe",
+    "lineageKey": "weapon-labrys-axe",
+    "slug": "labrys-axe",
+    "name": "Labrys Axe",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+7",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "armorScore": 1
+    },
+    "featureName": null,
+    "featureText": "Protective: +1 to Armor Score",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-meridian-cutlass",
+    "lineageKey": "weapon-meridian-cutlass",
+    "slug": "meridian-cutlass",
+    "name": "Meridian Cutlass",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "melee",
+      "damageFormula": "d10+5",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Dueling: When there are no other creatures within Close range of the target, gain advantage on your attack roll against them.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-retractable-saber",
+    "lineageKey": "weapon-retractable-saber",
+    "slug": "retractable-saber",
+    "name": "Retractable Saber",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "melee",
+      "damageFormula": "d10+7",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Retractable: The blade can be hidden in the hilt to avoid detection.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-double-flail",
+    "lineageKey": "weapon-double-flail",
+    "slug": "double-flail",
+    "name": "Double Flail",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+8",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Powerful: On a successful attack, roll an additional damage die and discard the lowest result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-talon-blades",
+    "lineageKey": "weapon-talon-blades",
+    "slug": "talon-blades",
+    "name": "Talon Blades",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "close",
+      "damageFormula": "d10+7",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Brutal: When you roll the maximum value on a damage die, roll an additional damage die.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-black-powder-revolver",
+    "lineageKey": "weapon-black-powder-revolver",
+    "slug": "black-powder-revolver",
+    "name": "Black Powder Revolver",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "far",
+      "damageFormula": "d6+8",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reloading: After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-spiked-bow",
+    "lineageKey": "weapon-spiked-bow",
+    "slug": "spiked-bow",
+    "name": "Spiked Bow",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "very_far",
+      "damageFormula": "d6+7",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Versatile: This weapon can also be used with these statistics-Agility, Melee, d10+5.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 48
+  },
+  {
+    "id": "weapon-legendary-broadsword",
+    "lineageKey": "weapon-legendary-broadsword",
+    "slug": "legendary-broadsword",
+    "name": "Legendary Broadsword",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-longsword",
+    "lineageKey": "weapon-legendary-longsword",
+    "slug": "legendary-longsword",
+    "name": "Legendary Longsword",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+12",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-battleaxe",
+    "lineageKey": "weapon-legendary-battleaxe",
+    "slug": "legendary-battleaxe",
+    "name": "Legendary Battleaxe",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+12",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-greatsword",
+    "lineageKey": "weapon-legendary-greatsword",
+    "slug": "legendary-greatsword",
+    "name": "Legendary Greatsword",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+12",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Massive: -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-mace",
+    "lineageKey": "weapon-legendary-mace",
+    "slug": "legendary-mace",
+    "name": "Legendary Mace",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d8+10",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-warhammer",
+    "lineageKey": "weapon-legendary-warhammer",
+    "slug": "legendary-warhammer",
+    "name": "Legendary Warhammer",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d12+12",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-dagger",
+    "lineageKey": "weapon-legendary-dagger",
+    "slug": "legendary-dagger",
+    "name": "Legendary Dagger",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "melee",
+      "damageFormula": "d8+10",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-quarterstaff",
+    "lineageKey": "weapon-legendary-quarterstaff",
+    "slug": "legendary-quarterstaff",
+    "name": "Legendary Quarterstaff",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "melee",
+      "damageFormula": "d10+12",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-cutlass",
+    "lineageKey": "weapon-legendary-cutlass",
+    "slug": "legendary-cutlass",
+    "name": "Legendary Cutlass",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "melee",
+      "damageFormula": "d8+10",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-rapier",
+    "lineageKey": "weapon-legendary-rapier",
+    "slug": "legendary-rapier",
+    "name": "Legendary Rapier",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "melee",
+      "damageFormula": "d8+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Quick: When you make an attack, you can mark a Stress to target another creature within range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-halberd",
+    "lineageKey": "weapon-legendary-halberd",
+    "slug": "legendary-halberd",
+    "name": "Legendary Halberd",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+11",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-spear",
+    "lineageKey": "weapon-legendary-spear",
+    "slug": "legendary-spear",
+    "name": "Legendary Spear",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+11",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-shortbow",
+    "lineageKey": "weapon-legendary-shortbow",
+    "slug": "legendary-shortbow",
+    "name": "Legendary Shortbow",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "far",
+      "damageFormula": "d6+12",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-crossbow",
+    "lineageKey": "weapon-legendary-crossbow",
+    "slug": "legendary-crossbow",
+    "name": "Legendary Crossbow",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "far",
+      "damageFormula": "d6+10",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-longbow",
+    "lineageKey": "weapon-legendary-longbow",
+    "slug": "legendary-longbow",
+    "name": "Legendary Longbow",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "very_far",
+      "damageFormula": "d8+12",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "finesse": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Cumbersome: -1 to Finesse",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-dual-ended-sword",
+    "lineageKey": "weapon-dual-ended-sword",
+    "slug": "dual-ended-sword",
+    "name": "Dual-Ended Sword",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d10+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Quick: When you make an attack, you can mark a Stress to target another creature within range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-impact-gauntlet",
+    "lineageKey": "weapon-impact-gauntlet",
+    "slug": "impact-gauntlet",
+    "name": "Impact Gauntlet",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+11",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Concussive: On a successful attack, you can spend a Hope to knock the target back to Far range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-sledge-axe",
+    "lineageKey": "weapon-sledge-axe",
+    "slug": "sledge-axe",
+    "name": "Sledge Axe",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d12+13",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "traits": {
+        "agility": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Destructive: -1 to Agility; on a successful attack, all adversaries within Very Close range must mark a Stress.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-curved-dagger",
+    "lineageKey": "weapon-curved-dagger",
+    "slug": "curved-dagger",
+    "name": "Curved Dagger",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "melee",
+      "damageFormula": "d8+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Serrated: When you roll a 1 on a damage die, it deals 8 damage instead.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-extended-polearm",
+    "lineageKey": "weapon-extended-polearm",
+    "slug": "extended-polearm",
+    "name": "Extended Polearm",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "very_close",
+      "damageFormula": "d8+10",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Long: This weapon’s attack targets all adversaries in a line within range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-swinging-ropeblade",
+    "lineageKey": "weapon-swinging-ropeblade",
+    "slug": "swinging-ropeblade",
+    "name": "Swinging Ropeblade",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "close",
+      "damageFormula": "d8+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Grappling: On a successful attack, you can spend a Hope to Restrain the target or pull them into Melee range with you.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-ricochet-axes",
+    "lineageKey": "weapon-ricochet-axes",
+    "slug": "ricochet-axes",
+    "name": "Ricochet Axes",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "far",
+      "damageFormula": "d6+11",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Bouncing: Mark 1 or more Stress to hit that many targets in range of the attack.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-aantari-bow",
+    "lineageKey": "weapon-aantari-bow",
+    "slug": "aantari-bow",
+    "name": "Aantari Bow",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "far",
+      "damageFormula": "d6+11",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-hand-cannon",
+    "lineageKey": "weapon-hand-cannon",
+    "slug": "hand-cannon",
+    "name": "Hand Cannon",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "very_far",
+      "damageFormula": "d6+12",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reloading: After you make an attack, roll a d6. On a 1, you must mark a Stress to reload this weapon before you can fire it again.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 49
+  },
+  {
+    "id": "weapon-legendary-arcane-gauntlets",
+    "lineageKey": "weapon-legendary-arcane-gauntlets",
+    "slug": "legendary-arcane-gauntlets",
+    "name": "Legendary Arcane Gauntlets",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+12",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-legendary-hallowed-axe",
+    "lineageKey": "weapon-legendary-hallowed-axe",
+    "slug": "legendary-hallowed-axe",
+    "name": "Legendary Hallowed Axe",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d8+10",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-legendary-glowing-rings",
+    "lineageKey": "weapon-legendary-glowing-rings",
+    "slug": "legendary-glowing-rings",
+    "name": "Legendary Glowing Rings",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+11",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-legendary-hand-runes",
+    "lineageKey": "weapon-legendary-hand-runes",
+    "slug": "legendary-hand-runes",
+    "name": "Legendary Hand Runes",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "very_close",
+      "damageFormula": "d10+9",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-legendary-returning-blade",
+    "lineageKey": "weapon-legendary-returning-blade",
+    "slug": "legendary-returning-blade",
+    "name": "Legendary Returning Blade",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "close",
+      "damageFormula": "d8+9",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Returning: When this weapon is thrown within its range, it appears in your hand immediately after the attack.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-legendary-shortstaff",
+    "lineageKey": "weapon-legendary-shortstaff",
+    "slug": "legendary-shortstaff",
+    "name": "Legendary Shortstaff",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "close",
+      "damageFormula": "d8+10",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-legendary-dualstaff",
+    "lineageKey": "weapon-legendary-dualstaff",
+    "slug": "legendary-dualstaff",
+    "name": "Legendary Dualstaff",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "far",
+      "damageFormula": "d8+12",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-legendary-scepter",
+    "lineageKey": "weapon-legendary-scepter",
+    "slug": "legendary-scepter",
+    "name": "Legendary Scepter",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "far",
+      "damageFormula": "d6+9",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Versatile: This weapon can also be used with these statistics-Presence, Melee, d8+6.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-legendary-wand",
+    "lineageKey": "weapon-legendary-wand",
+    "slug": "legendary-wand",
+    "name": "Legendary Wand",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "knowledge",
+      "rangeBand": "far",
+      "damageFormula": "d6+10",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-legendary-greatstaff",
+    "lineageKey": "weapon-legendary-greatstaff",
+    "slug": "legendary-greatstaff",
+    "name": "Legendary Greatstaff",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "knowledge",
+      "rangeBand": "very_far",
+      "damageFormula": "d6+9",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Powerful: On a successful attack, roll an additional damage die and discard the lowest result. Sword of Light &",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-flame",
+    "lineageKey": "weapon-flame",
+    "slug": "flame",
+    "name": "Flame",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d10+11",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Hot: This weapon cuts through solid material.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-siphoning-gauntlets",
+    "lineageKey": "weapon-siphoning-gauntlets",
+    "slug": "siphoning-gauntlets",
+    "name": "Siphoning Gauntlets",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "melee",
+      "damageFormula": "d10+9",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Lifestealing: On a successful attack, roll a d6. On a result of 6, clear a Hit Point or clear a Stress.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-midas-scythe",
+    "lineageKey": "weapon-midas-scythe",
+    "slug": "midas-scythe",
+    "name": "Midas Scythe",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "knowledge",
+      "rangeBand": "melee",
+      "damageFormula": "d10+9",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Greedy: Spend a handful of gold to gain a +1 bonus to your Proficiency on a damage roll.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-floating-bladeshards",
+    "lineageKey": "weapon-floating-bladeshards",
+    "slug": "floating-bladeshards",
+    "name": "Floating Bladeshards",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "close",
+      "damageFormula": "d8+9",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Powerful: On a successful attack, roll an additional damage die and discard the lowest result.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-bloodstaff",
+    "lineageKey": "weapon-bloodstaff",
+    "slug": "bloodstaff",
+    "name": "Bloodstaff",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "far",
+      "damageFormula": "d20+7",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Painful: Each time you make a successful attack, you must mark a Stress.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-thistlebow",
+    "lineageKey": "weapon-thistlebow",
+    "slug": "thistlebow",
+    "name": "Thistlebow",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "far",
+      "damageFormula": "d6+13",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-wand-of-essek",
+    "lineageKey": "weapon-wand-of-essek",
+    "slug": "wand-of-essek",
+    "name": "Wand of Essek",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "knowledge",
+      "rangeBand": "far",
+      "damageFormula": "d8+13",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Timebending: You can choose the target of your attack after making your attack roll.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-magus-revolver",
+    "lineageKey": "weapon-magus-revolver",
+    "slug": "magus-revolver",
+    "name": "Magus Revolver",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "very_far",
+      "damageFormula": "d6+13",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reloading: After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-fusion-gloves",
+    "lineageKey": "weapon-fusion-gloves",
+    "slug": "fusion-gloves",
+    "name": "Fusion Gloves",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": true,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "knowledge",
+      "rangeBand": "very_far",
+      "damageFormula": "d6+9",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Bonded: Gain a bonus to your damage rolls equal to your level.",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 50
+  },
+  {
+    "id": "weapon-shortsword",
+    "lineageKey": "weapon-shortsword",
+    "slug": "shortsword",
+    "name": "Shortsword",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Paired: +2 to primary weapon damage to targets within",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-melee-range-round-shield",
+    "lineageKey": "weapon-melee-range-round-shield",
+    "slug": "melee-range-round-shield",
+    "name": "Melee range Round Shield",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "armorScore": 1
+    },
+    "featureName": null,
+    "featureText": "Protective: +1 to Armor Score",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-tower-shield",
+    "lineageKey": "weapon-tower-shield",
+    "slug": "tower-shield",
+    "name": "Tower Shield",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1,
+      "armorScore": 2
+    },
+    "featureName": null,
+    "featureText": "Barrier: +2 to Armor Score; -1 to Evasion",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-small-dagger",
+    "lineageKey": "weapon-small-dagger",
+    "slug": "small-dagger",
+    "name": "Small Dagger",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "melee",
+      "damageFormula": "d8",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Paired: +2 to primary weapon damage to targets within",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-melee-range-whip",
+    "lineageKey": "weapon-melee-range-whip",
+    "slug": "melee-range-whip",
+    "name": "Melee range Whip",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "very_close",
+      "damageFormula": "d6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Startling: Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-grappler",
+    "lineageKey": "weapon-grappler",
+    "slug": "grappler",
+    "name": "Grappler",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
       "traitMode": "finesse",
       "rangeBand": "close",
       "damageFormula": "d6",
@@ -202,35 +4185,14 @@
     "alternateProfiles": [],
     "sheetModifiers": {},
     "featureName": null,
-    "featureText": "Can be split between two adjacent targets.",
-    "tags": ["weapon", "secondary", "blade"],
+    "featureText": "Hooked: On a successful attack, you can pull the target into Melee range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
     "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 49
-  },
-  {
-    "id": "weapon-club",
-    "lineageKey": "weapon-club",
-    "slug": "club",
-    "name": "Club",
-    "tier": 1,
-    "weaponCategory": "secondary",
-    "weaponSubtype": "bludgeon",
-    "requiresSpellcast": false,
-    "burdenHands": 1,
-    "defaultProfile": {
-      "label": "Quick Swing",
-      "traitMode": "strength",
-      "rangeBand": "melee",
-      "damageFormula": "d4",
-      "damageType": "physical"
-    },
-    "alternateProfiles": [],
-    "sheetModifiers": {},
-    "featureName": null,
-    "featureText": "Simple and reliable in tight quarters.",
-    "tags": ["weapon", "secondary", "bludgeon"],
-    "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 49
+    "sourcePage": 51
   },
   {
     "id": "weapon-hand-crossbow",
@@ -238,51 +4200,1270 @@
     "slug": "hand-crossbow",
     "name": "Hand Crossbow",
     "tier": 1,
-    "weaponCategory": "secondary",
-    "weaponSubtype": "crossbow",
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
     "requiresSpellcast": false,
     "burdenHands": 1,
     "defaultProfile": {
-      "label": "Close Bolt",
-      "traitMode": "agility",
-      "rangeBand": "close",
-      "damageFormula": "d6",
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "far",
+      "damageFormula": "d6+1",
       "damageType": "physical"
     },
     "alternateProfiles": [],
     "sheetModifiers": {},
     "featureName": null,
-    "featureText": "Compact ranged backup weapon.",
-    "tags": ["weapon", "secondary", "ranged"],
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
     "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 49
+    "sourcePage": 51
   },
   {
-    "id": "weapon-combat-wheelchair-ram",
-    "lineageKey": "weapon-combat-wheelchair-ram",
-    "slug": "combat-wheelchair-ram",
-    "name": "Combat Wheelchair Ram",
-    "tier": 1,
+    "id": "weapon-improved-shortsword",
+    "lineageKey": "weapon-improved-shortsword",
+    "slug": "improved-shortsword",
+    "name": "Improved Shortsword",
+    "tier": 2,
     "weaponCategory": "primary",
-    "weaponSubtype": "combat_wheelchair",
+    "weaponSubtype": "standard",
     "requiresSpellcast": false,
-    "burdenHands": 0,
+    "burdenHands": 1,
     "defaultProfile": {
-      "label": "Ramming Strike",
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+2",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Paired: +3 to primary weapon damage to targets within",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-melee-range-improved-round-shield",
+    "lineageKey": "weapon-melee-range-improved-round-shield",
+    "slug": "melee-range-improved-round-shield",
+    "name": "Melee range Improved Round Shield",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
       "traitMode": "strength",
       "rangeBand": "melee",
-      "damageFormula": "d8",
+      "damageFormula": "d4+2",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "armorScore": 2
+    },
+    "featureName": null,
+    "featureText": "Protective: +2 to Armor Score",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-improved-tower-shield",
+    "lineageKey": "weapon-improved-tower-shield",
+    "slug": "improved-tower-shield",
+    "name": "Improved Tower Shield",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d6+2",
       "damageType": "physical"
     },
     "alternateProfiles": [],
     "sheetModifiers": {
       "evasion": -1,
+      "armorScore": 3
+    },
+    "featureName": null,
+    "featureText": "Barrier: +3 to Armor Score; -1 to Evasion",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-improved-small-dagger",
+    "lineageKey": "weapon-improved-small-dagger",
+    "slug": "improved-small-dagger",
+    "name": "Improved Small Dagger",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "melee",
+      "damageFormula": "d8+2",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Paired: +3 to primary weapon damage to targets within",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-melee-range-improved-whip",
+    "lineageKey": "weapon-melee-range-improved-whip",
+    "slug": "melee-range-improved-whip",
+    "name": "Melee range Improved Whip",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "very_close",
+      "damageFormula": "d6+2",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Startling: Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-improved-grappler",
+    "lineageKey": "weapon-improved-grappler",
+    "slug": "improved-grappler",
+    "name": "Improved Grappler",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "close",
+      "damageFormula": "d6+2",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Hooked: On a successful attack, you can pull the target into Melee range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-improved-hand-crossbow",
+    "lineageKey": "weapon-improved-hand-crossbow",
+    "slug": "improved-hand-crossbow",
+    "name": "Improved Hand Crossbow",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "far",
+      "damageFormula": "d6+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-spiked-shield",
+    "lineageKey": "weapon-spiked-shield",
+    "slug": "spiked-shield",
+    "name": "Spiked Shield",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d6+2",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
       "armorScore": 1
     },
     "featureName": null,
-    "featureText": "Built-in reinforced frame for direct impact attacks.",
-    "tags": ["weapon", "combat_wheelchair", "primary"],
+    "featureText": "Double Duty: +1 to Armor Score; +1 to primary weapon damage within Melee range",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
     "sourceBook": "DH-SRD-May202025",
     "sourcePage": 51
+  },
+  {
+    "id": "weapon-parrying-dagger",
+    "lineageKey": "weapon-parrying-dagger",
+    "slug": "parrying-dagger",
+    "name": "Parrying Dagger",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "melee",
+      "damageFormula": "d6+2",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Parry: When you are attacked, roll this weapon's damage dice. If any of the attacker's damage dice rolled the same value as your dice, the matching results are discarded from the attacker's damage dice before the damage you take is totaled.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-returning-axe",
+    "lineageKey": "weapon-returning-axe",
+    "slug": "returning-axe",
+    "name": "Returning Axe",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "close",
+      "damageFormula": "d6+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Returning: When this weapon is thrown within its range, it appears in your hand immediately after the attack.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 51
+  },
+  {
+    "id": "weapon-advanced-shortsword",
+    "lineageKey": "weapon-advanced-shortsword",
+    "slug": "advanced-shortsword",
+    "name": "Advanced Shortsword",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Paired: +4 to primary weapon damage to targets within",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-melee-range-advanced-round-shield",
+    "lineageKey": "weapon-melee-range-advanced-round-shield",
+    "slug": "melee-range-advanced-round-shield",
+    "name": "Melee range Advanced Round Shield",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d4+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "armorScore": 3
+    },
+    "featureName": null,
+    "featureText": "Protective: +3 to Armor Score",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-advanced-tower-shield",
+    "lineageKey": "weapon-advanced-tower-shield",
+    "slug": "advanced-tower-shield",
+    "name": "Advanced Tower Shield",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d6+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1,
+      "armorScore": 4
+    },
+    "featureName": null,
+    "featureText": "Barrier: +4 to Armor Score; -1 to Evasion",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-advanced-small-dagger",
+    "lineageKey": "weapon-advanced-small-dagger",
+    "slug": "advanced-small-dagger",
+    "name": "Advanced Small Dagger",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "melee",
+      "damageFormula": "d8+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Paired: +4 to primary weapon damage to targets within",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-melee-range-advanced-whip",
+    "lineageKey": "weapon-melee-range-advanced-whip",
+    "slug": "melee-range-advanced-whip",
+    "name": "Melee range Advanced Whip",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "very_close",
+      "damageFormula": "d6+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Startling: Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-advanced-grappler",
+    "lineageKey": "weapon-advanced-grappler",
+    "slug": "advanced-grappler",
+    "name": "Advanced Grappler",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "close",
+      "damageFormula": "d6+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Hooked: On a successful attack, you can pull the target into Melee range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-advanced-hand-crossbow",
+    "lineageKey": "weapon-advanced-hand-crossbow",
+    "slug": "advanced-hand-crossbow",
+    "name": "Advanced Hand Crossbow",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "far",
+      "damageFormula": "d6+5",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-buckler",
+    "lineageKey": "weapon-buckler",
+    "slug": "buckler",
+    "name": "Buckler",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d4+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Deflecting: When you are attacked, you can mark an Armor Slot to gain a bonus to your Evasion equal to your Armor Score against the attack.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-powered-gauntlet",
+    "lineageKey": "weapon-powered-gauntlet",
+    "slug": "powered-gauntlet",
+    "name": "Powered Gauntlet",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "knowledge",
+      "rangeBand": "close",
+      "damageFormula": "d6+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Charged: Mark a Stress to gain a +1 bonus to your Proficiency on a primary weapon attack.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-hand-sling",
+    "lineageKey": "weapon-hand-sling",
+    "slug": "hand-sling",
+    "name": "Hand Sling",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "very_far",
+      "damageFormula": "d6+4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Versatile: This weapon can also be used with these statistics-Finesse, Close, d8+4.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-legendary-shortsword",
+    "lineageKey": "weapon-legendary-shortsword",
+    "slug": "legendary-shortsword",
+    "name": "Legendary Shortsword",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Paired: +5 to primary weapon damage to targets within",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-melee-range-legendary-round-shield",
+    "lineageKey": "weapon-melee-range-legendary-round-shield",
+    "slug": "melee-range-legendary-round-shield",
+    "name": "Melee range Legendary Round Shield",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d4+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "armorScore": 4
+    },
+    "featureName": null,
+    "featureText": "Protective: +4 to Armor Score",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-legendary-tower-shield",
+    "lineageKey": "weapon-legendary-tower-shield",
+    "slug": "legendary-tower-shield",
+    "name": "Legendary Tower Shield",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d6+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1,
+      "armorScore": 5
+    },
+    "featureName": null,
+    "featureText": "Barrier: +5 to Armor Score; -1 to Evasion.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-legendary-small-dagger",
+    "lineageKey": "weapon-legendary-small-dagger",
+    "slug": "legendary-small-dagger",
+    "name": "Legendary Small Dagger",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "melee",
+      "damageFormula": "d8+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Paired: +5 to primary weapon damage to targets within",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-melee-range-legendary-whip",
+    "lineageKey": "weapon-melee-range-legendary-whip",
+    "slug": "melee-range-legendary-whip",
+    "name": "Melee range Legendary Whip",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "presence",
+      "rangeBand": "very_close",
+      "damageFormula": "d6+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Startling: Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-legendary-grappler",
+    "lineageKey": "weapon-legendary-grappler",
+    "slug": "legendary-grappler",
+    "name": "Legendary Grappler",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "close",
+      "damageFormula": "d6+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Hooked: On a successful attack, you can pull the target into Melee range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-legendary-hand-crossbow",
+    "lineageKey": "weapon-legendary-hand-crossbow",
+    "slug": "legendary-hand-crossbow",
+    "name": "Legendary Hand Crossbow",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "finesse",
+      "rangeBand": "far",
+      "damageFormula": "d6+7",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-braveshield",
+    "lineageKey": "weapon-braveshield",
+    "slug": "braveshield",
+    "name": "Braveshield",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d4+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Sheltering: When you mark an Armor Slot, it reduces damage for you and all allies within Melee range of you who took the same damage.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-knuckle-claws",
+    "lineageKey": "weapon-knuckle-claws",
+    "slug": "knuckle-claws",
+    "name": "Knuckle Claws",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d6+8",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Doubled Up: When you make an attack with your primary weapon, you can deal damage to another target within Melee range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-primer-shard",
+    "lineageKey": "weapon-primer-shard",
+    "slug": "primer-shard",
+    "name": "Primer Shard",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "standard",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "instinct",
+      "rangeBand": "very_close",
+      "damageFormula": "d4",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Locked On: On a successful attack, your next attack against the same target with your primary weapon automatically succeeds.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 52
+  },
+  {
+    "id": "weapon-light-frame-wheelchair",
+    "lineageKey": "weapon-light-frame-wheelchair",
+    "slug": "light-frame-wheelchair",
+    "name": "Light-Frame Wheelchair",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Quick: When you make an attack, you can mark a Stress to target another creature within range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 53
+  },
+  {
+    "id": "weapon-improved-light-frame-wheelchair",
+    "lineageKey": "weapon-improved-light-frame-wheelchair",
+    "slug": "improved-light-frame-wheelchair",
+    "name": "Improved Light-Frame Wheelchair",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Quick: When you make an attack, you can mark a Stress to target another creature within range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 53
+  },
+  {
+    "id": "weapon-advanced-light-frame-wheelchair",
+    "lineageKey": "weapon-advanced-light-frame-wheelchair",
+    "slug": "advanced-light-frame-wheelchair",
+    "name": "Advanced Light-Frame Wheelchair",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Quick: When you make an attack, you can mark a Stress to target another creature within range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 53
+  },
+  {
+    "id": "weapon-legendary-light-frame-wheelchair",
+    "lineageKey": "weapon-legendary-light-frame-wheelchair",
+    "slug": "legendary-light-frame-wheelchair",
+    "name": "Legendary Light-Frame Wheelchair",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": false,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "agility",
+      "rangeBand": "melee",
+      "damageFormula": "d8+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Quick: When you make an attack, you can mark a Stress to target another creature within range.",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 53
+  },
+  {
+    "id": "weapon-heavy-frame-wheelchair",
+    "lineageKey": "weapon-heavy-frame-wheelchair",
+    "slug": "heavy-frame-wheelchair",
+    "name": "Heavy-Frame Wheelchair",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d12+3",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 54
+  },
+  {
+    "id": "weapon-improved-heavy-frame-wheelchair",
+    "lineageKey": "weapon-improved-heavy-frame-wheelchair",
+    "slug": "improved-heavy-frame-wheelchair",
+    "name": "Improved Heavy-Frame Wheelchair",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d12+6",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 54
+  },
+  {
+    "id": "weapon-advanced-heavy-frame-wheelchair",
+    "lineageKey": "weapon-advanced-heavy-frame-wheelchair",
+    "slug": "advanced-heavy-frame-wheelchair",
+    "name": "Advanced Heavy-Frame Wheelchair",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d12+9",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 54
+  },
+  {
+    "id": "weapon-legendary-heavy-frame-wheelchair",
+    "lineageKey": "weapon-legendary-heavy-frame-wheelchair",
+    "slug": "legendary-heavy-frame-wheelchair",
+    "name": "Legendary Heavy-Frame Wheelchair",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": false,
+    "burdenHands": 2,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "strength",
+      "rangeBand": "melee",
+      "damageFormula": "d12+12",
+      "damageType": "physical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "weapon",
+      "primary",
+      "physical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 54
+  },
+  {
+    "id": "weapon-arcane-frame-wheelchair",
+    "lineageKey": "weapon-arcane-frame-wheelchair",
+    "slug": "arcane-frame-wheelchair",
+    "name": "Arcane-Frame Wheelchair",
+    "tier": 1,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "spellcast",
+      "rangeBand": "far",
+      "damageFormula": "d6",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 54
+  },
+  {
+    "id": "weapon-improved-arcane-frame-wheelchair",
+    "lineageKey": "weapon-improved-arcane-frame-wheelchair",
+    "slug": "improved-arcane-frame-wheelchair",
+    "name": "Improved Arcane-Frame Wheelchair",
+    "tier": 2,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "spellcast",
+      "rangeBand": "far",
+      "damageFormula": "d6+3",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 54
+  },
+  {
+    "id": "weapon-advanced-arcane-frame-wheelchair",
+    "lineageKey": "weapon-advanced-arcane-frame-wheelchair",
+    "slug": "advanced-arcane-frame-wheelchair",
+    "name": "Advanced Arcane-Frame Wheelchair",
+    "tier": 3,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "spellcast",
+      "rangeBand": "far",
+      "damageFormula": "d6+6",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 54
+  },
+  {
+    "id": "weapon-legendary-arcane-frame-wheelchair",
+    "lineageKey": "weapon-legendary-arcane-frame-wheelchair",
+    "slug": "legendary-arcane-frame-wheelchair",
+    "name": "Legendary Arcane-Frame Wheelchair",
+    "tier": 4,
+    "weaponCategory": "primary",
+    "weaponSubtype": "combat_wheelchair",
+    "requiresSpellcast": true,
+    "burdenHands": 1,
+    "defaultProfile": {
+      "label": "Standard Attack",
+      "traitMode": "spellcast",
+      "rangeBand": "far",
+      "damageFormula": "d6+9",
+      "damageType": "magical"
+    },
+    "alternateProfiles": [],
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reliable: +1 to attack rolls",
+    "tags": [
+      "weapon",
+      "primary",
+      "magical"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 54
   }
 ]

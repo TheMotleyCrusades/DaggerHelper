@@ -1,90 +1,1022 @@
 [
   {
-    "id": "consumable-healing-draught",
-    "lineageKey": "consumable-healing-draught",
-    "slug": "healing-draught",
-    "name": "Healing Draught",
+    "id": "consumable-stride-potion",
+    "lineageKey": "consumable-stride-potion",
+    "slug": "stride-potion",
+    "name": "Stride Potion",
     "rarity": "common",
-    "rollValue": null,
+    "rollValue": 1,
     "consumableCategory": "potion",
     "stackLimit": 5,
-    "usagePayload": {
-      "effect": "restore_hp",
-      "amount": "d6"
-    },
-    "rulesText": "Drink to recover d6 HP.",
-    "tags": ["consumable", "healing", "potion"],
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your next Agility Roll.",
+    "tags": [
+      "consumable"
+    ],
     "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 60
+    "sourcePage": 58
   },
   {
-    "id": "consumable-focus-ink",
-    "lineageKey": "consumable-focus-ink",
-    "slug": "focus-ink",
-    "name": "Focus Ink",
-    "rarity": "uncommon",
-    "rollValue": null,
-    "consumableCategory": "scroll",
-    "stackLimit": 3,
-    "usagePayload": {
-      "effect": "spell_boost",
-      "duration": "scene"
-    },
-    "rulesText": "Apply to a scroll or sigil to gain advantage on the next spell check this scene.",
-    "tags": ["consumable", "arcane", "scroll"],
-    "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 61
-  },
-  {
-    "id": "consumable-smoke-bomb",
-    "lineageKey": "consumable-smoke-bomb",
-    "slug": "smoke-bomb",
-    "name": "Smoke Bomb",
+    "id": "consumable-bolster-potion",
+    "lineageKey": "consumable-bolster-potion",
+    "slug": "bolster-potion",
+    "name": "Bolster Potion",
     "rarity": "common",
-    "rollValue": null,
-    "consumableCategory": "bomb",
-    "stackLimit": 3,
-    "usagePayload": {
-      "effect": "obscure_close_area"
-    },
-    "rulesText": "Create a close-area smoke cloud until the end of your next turn.",
-    "tags": ["consumable", "bomb", "utility"],
+    "rollValue": 2,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your next Strength Roll.",
+    "tags": [
+      "consumable"
+    ],
     "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 60
+    "sourcePage": 58
   },
   {
-    "id": "consumable-antidote-salve",
-    "lineageKey": "consumable-antidote-salve",
-    "slug": "antidote-salve",
-    "name": "Antidote Salve",
+    "id": "consumable-control-potion",
+    "lineageKey": "consumable-control-potion",
+    "slug": "control-potion",
+    "name": "Control Potion",
     "rarity": "common",
-    "rollValue": null,
-    "consumableCategory": "salve",
-    "stackLimit": 4,
-    "usagePayload": {
-      "effect": "remove_condition",
-      "condition": "poisoned"
-    },
-    "rulesText": "Apply to remove a poison effect.",
-    "tags": ["consumable", "salve", "antidote"],
+    "rollValue": 3,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your next Finesse Roll.",
+    "tags": [
+      "consumable"
+    ],
     "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 60
+    "sourcePage": 58
   },
   {
-    "id": "consumable-ration-pack",
-    "lineageKey": "consumable-ration-pack",
-    "slug": "ration-pack",
-    "name": "Ration Pack",
+    "id": "consumable-attune-potion",
+    "lineageKey": "consumable-attune-potion",
+    "slug": "attune-potion",
+    "name": "Attune Potion",
     "rarity": "common",
-    "rollValue": null,
+    "rollValue": 4,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your next Instinct Roll.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-charm-potion",
+    "lineageKey": "consumable-charm-potion",
+    "slug": "charm-potion",
+    "name": "Charm Potion",
+    "rarity": "common",
+    "rollValue": 5,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your next Presence Roll.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-enlighten-potion",
+    "lineageKey": "consumable-enlighten-potion",
+    "slug": "enlighten-potion",
+    "name": "Enlighten Potion",
+    "rarity": "common",
+    "rollValue": 6,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your next Knowledge Roll.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-minor-health-potion-clear-1d4-hp",
+    "lineageKey": "consumable-minor-health-potion-clear-1d4-hp",
+    "slug": "minor-health-potion-clear-1d4-hp",
+    "name": "Minor Health Potion Clear 1d4 HP.",
+    "rarity": "common",
+    "rollValue": 7,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-minor-stamina-potion-clear-1d4-stress-roll-loot-description",
+    "lineageKey": "consumable-minor-stamina-potion-clear-1d4-stress-roll-loot-description",
+    "slug": "minor-stamina-potion-clear-1d4-stress-roll-loot-description",
+    "name": "Minor Stamina Potion Clear 1d4 Stress. ROLL LOOT description",
+    "rarity": "common",
+    "rollValue": 8,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-grindletooth-venom",
+    "lineageKey": "consumable-grindletooth-venom",
+    "slug": "grindletooth-venom",
+    "name": "Grindletooth Venom",
+    "rarity": "common",
+    "rollValue": 9,
+    "consumableCategory": "poison",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can apply this venom to a weapon that deals physical damage to add a d6 to your next damage roll with that weapon.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-varik-leaves",
+    "lineageKey": "consumable-varik-leaves",
+    "slug": "varik-leaves",
+    "name": "Varik Leaves",
+    "rarity": "common",
+    "rollValue": 10,
     "consumableCategory": "food",
-    "stackLimit": 10,
-    "usagePayload": {
-      "effect": "rest_support"
-    },
-    "rulesText": "Basic food for travel and short rests.",
-    "tags": ["consumable", "food", "travel"],
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can eat these paired leaves to immediately gain 2 Hope.",
+    "tags": [
+      "consumable"
+    ],
     "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 60
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-vial-of-moondrip",
+    "lineageKey": "consumable-vial-of-moondrip",
+    "slug": "vial-of-moondrip",
+    "name": "Vial of Moondrip",
+    "rarity": "common",
+    "rollValue": 11,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "When you drink the contents of this vial, you can see in total darkness until your next rest.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-unstable-arcane-shard",
+    "lineageKey": "consumable-unstable-arcane-shard",
+    "slug": "unstable-arcane-shard",
+    "name": "Unstable Arcane Shard",
+    "rarity": "common",
+    "rollValue": 12,
+    "consumableCategory": "bomb",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. T argets you succeed against take 1d20 magic damage.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-potion-of-stability",
+    "lineageKey": "consumable-potion-of-stability",
+    "slug": "potion-of-stability",
+    "name": "Potion of Stability",
+    "rarity": "common",
+    "rollValue": 13,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can drink this potion to choose one additional downtime move.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-improved-grindletooth-venom",
+    "lineageKey": "consumable-improved-grindletooth-venom",
+    "slug": "improved-grindletooth-venom",
+    "name": "Improved Grindletooth Venom",
+    "rarity": "common",
+    "rollValue": 14,
+    "consumableCategory": "poison",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can apply this venom to a weapon that deals physical damage to add a d8 to your next damage roll with that weapon. 59 ROLL LOOT description",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-morphing-clay",
+    "lineageKey": "consumable-morphing-clay",
+    "slug": "morphing-clay",
+    "name": "Morphing Clay",
+    "rarity": "common",
+    "rollValue": 15,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can spend a Hope to use this clay, altering your face enough to make you unrecognizable until your next rest.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-vial-of-darksmoke",
+    "lineageKey": "consumable-vial-of-darksmoke",
+    "slug": "vial-of-darksmoke",
+    "name": "Vial of Darksmoke",
+    "rarity": "common",
+    "rollValue": 16,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "When an adversary attacks you, use this vial and roll a number of d6s equal to your Agility. Add the highest result to your Evasion against the attack.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-jumping-root-eat-this-root-to-leap-up-to-far-range-once-without-needing-to-roll",
+    "lineageKey": "consumable-jumping-root-eat-this-root-to-leap-up-to-far-range-once-without-needing-to-roll",
+    "slug": "jumping-root-eat-this-root-to-leap-up-to-far-range-once-without-needing-to-roll",
+    "name": "Jumping Root Eat this root to leap up to Far range once without needing to roll.",
+    "rarity": "common",
+    "rollValue": 17,
+    "consumableCategory": "food",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-snap-powder-mark-a-stress-and-clear-a-hp",
+    "lineageKey": "consumable-snap-powder-mark-a-stress-and-clear-a-hp",
+    "slug": "snap-powder-mark-a-stress-and-clear-a-hp",
+    "name": "Snap Powder Mark a Stress and clear a HP.",
+    "rarity": "common",
+    "rollValue": 18,
+    "consumableCategory": "bomb",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-health-potion-clear-1d4-1-hp",
+    "lineageKey": "consumable-health-potion-clear-1d4-1-hp",
+    "slug": "health-potion-clear-1d4-1-hp",
+    "name": "Health Potion Clear 1d4+1 HP.",
+    "rarity": "common",
+    "rollValue": 19,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-stamina-potion-clear-1d4-1-stress",
+    "lineageKey": "consumable-stamina-potion-clear-1d4-1-stress",
+    "slug": "stamina-potion-clear-1d4-1-stress",
+    "name": "Stamina Potion Clear 1d4+1 Stress.",
+    "rarity": "common",
+    "rollValue": 20,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-armor-stitcher",
+    "lineageKey": "consumable-armor-stitcher",
+    "slug": "armor-stitcher",
+    "name": "Armor Stitcher",
+    "rarity": "common",
+    "rollValue": 21,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can use this stitcher to spend any number of Hope and clear that many Armor Slots.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-gill-salve",
+    "lineageKey": "consumable-gill-salve",
+    "slug": "gill-salve",
+    "name": "Gill Salve",
+    "rarity": "common",
+    "rollValue": 22,
+    "consumableCategory": "salve",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can apply this salve to your neck to breathe underwater for a number of minutes equal to your level.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-replication-parchment-by-touching-this-piece-of-parchment-to-another-you-can-perfectly-copy-the-second-parchment-s-contents",
+    "lineageKey": "consumable-replication-parchment-by-touching-this-piece-of-parchment-to-another-you-can-perfectly-copy-the-second-parchment-s-contents",
+    "slug": "replication-parchment-by-touching-this-piece-of-parchment-to-another-you-can-perfectly-copy-the-second-parchment-s-contents",
+    "name": "Replication Parchment By touching this piece of parchment to another, you can perfectly copy the second parchment’s contents.",
+    "rarity": "common",
+    "rollValue": 23,
+    "consumableCategory": "scroll",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "Once used, this parchment becomes mundane paper.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-improved-arcane-shard",
+    "lineageKey": "consumable-improved-arcane-shard",
+    "slug": "improved-arcane-shard",
+    "name": "Improved Arcane Shard",
+    "rarity": "common",
+    "rollValue": 24,
+    "consumableCategory": "bomb",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. T argets you succeed against take 2d20 magic damage.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-major-stride-potion",
+    "lineageKey": "consumable-major-stride-potion",
+    "slug": "major-stride-potion",
+    "name": "Major Stride Potion",
+    "rarity": "common",
+    "rollValue": 25,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your Agility until your next rest.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-major-bolster-potion",
+    "lineageKey": "consumable-major-bolster-potion",
+    "slug": "major-bolster-potion",
+    "name": "Major Bolster Potion",
+    "rarity": "common",
+    "rollValue": 26,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your Strength until your next rest.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-major-control-potion",
+    "lineageKey": "consumable-major-control-potion",
+    "slug": "major-control-potion",
+    "name": "Major Control Potion",
+    "rarity": "common",
+    "rollValue": 27,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your Finesse until your next rest.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-major-attune-potion",
+    "lineageKey": "consumable-major-attune-potion",
+    "slug": "major-attune-potion",
+    "name": "Major Attune Potion",
+    "rarity": "common",
+    "rollValue": 28,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your Instinct until your next rest.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-major-charm-potion",
+    "lineageKey": "consumable-major-charm-potion",
+    "slug": "major-charm-potion",
+    "name": "Major Charm Potion",
+    "rarity": "common",
+    "rollValue": 29,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your Presence until your next rest.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-major-enlighten-potion",
+    "lineageKey": "consumable-major-enlighten-potion",
+    "slug": "major-enlighten-potion",
+    "name": "Major Enlighten Potion",
+    "rarity": "common",
+    "rollValue": 30,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain a +1 bonus to your Knowledge until your next rest.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-blood-of-the-yorgi",
+    "lineageKey": "consumable-blood-of-the-yorgi",
+    "slug": "blood-of-the-yorgi",
+    "name": "Blood of the Yorgi",
+    "rarity": "common",
+    "rollValue": 31,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can drink this blood to disappear from where you are and immediately reappear at a point you can see within Very Far range.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-homet-s-secret-potion",
+    "lineageKey": "consumable-homet-s-secret-potion",
+    "slug": "homet-s-secret-potion",
+    "name": "Homet’s Secret Potion",
+    "rarity": "common",
+    "rollValue": 32,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "After drinking this potion, the next successful attack you make critically succeeds.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-redthorn-saliva",
+    "lineageKey": "consumable-redthorn-saliva",
+    "slug": "redthorn-saliva",
+    "name": "Redthorn Saliva",
+    "rarity": "common",
+    "rollValue": 33,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can apply this saliva to a weapon that deals physical damage to add a d12 to your next damage roll with that weapon.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-channelstone",
+    "lineageKey": "consumable-channelstone",
+    "slug": "channelstone",
+    "name": "Channelstone",
+    "rarity": "common",
+    "rollValue": 34,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can use this stone to take a spell or grimoire from your vault, use it once, and return it to your vault. ROLL LOOT description",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-mythic-dust",
+    "lineageKey": "consumable-mythic-dust",
+    "slug": "mythic-dust",
+    "name": "Mythic Dust",
+    "rarity": "common",
+    "rollValue": 35,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can apply this dust to a weapon that deals magic damage to add a d12 to your next damage roll with that weapon.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-acidpaste",
+    "lineageKey": "consumable-acidpaste",
+    "slug": "acidpaste",
+    "name": "Acidpaste",
+    "rarity": "common",
+    "rollValue": 36,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "This paste eats away walls and other surfaces in bright flashes.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-hopehold-flare",
+    "lineageKey": "consumable-hopehold-flare",
+    "slug": "hopehold-flare",
+    "name": "Hopehold Flare",
+    "rarity": "common",
+    "rollValue": 37,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "When you use this flare, allies within Close range roll a d6 when they spend a Hope. On a result of 6, they gain the effect of that Hope without spending it. The flare lasts until the end of the scene.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-major-arcane-shard",
+    "lineageKey": "consumable-major-arcane-shard",
+    "slug": "major-arcane-shard",
+    "name": "Major Arcane Shard",
+    "rarity": "common",
+    "rollValue": 38,
+    "consumableCategory": "bomb",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. T argets you succeed against take 4d20 magic damage.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-featherbone",
+    "lineageKey": "consumable-featherbone",
+    "slug": "featherbone",
+    "name": "Featherbone",
+    "rarity": "common",
+    "rollValue": 39,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can use this bone to control your falling speed for a number of minutes equal to your level.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-circle-of-the-void-mark-a-stress-to-create-a-void-that-extends-up-to-far-range-no-magic-can-be-cast-inside-the-void-and-creatures-within-the-void-are-immune-to-magic-damage",
+    "lineageKey": "consumable-circle-of-the-void-mark-a-stress-to-create-a-void-that-extends-up-to-far-range-no-magic-can-be-cast-inside-the-void-and-creatures-within-the-void-are-immune-to-magic-damage",
+    "slug": "circle-of-the-void-mark-a-stress-to-create-a-void-that-extends-up-to-far-range-no-magic-can-be-cast-inside-the-void-and-creatures-within-the-void-are-immune-to-magic-damage",
+    "name": "Circle of the Void Mark a Stress to create a void that extends up to Far range. No magic can be cast inside the void, and creatures within the void are immune to magic damage.",
+    "rarity": "common",
+    "rollValue": 40,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-sun-tree-sap-consume-this-sap-to-roll-a-d6-on-a-result-of-5-6-clear-2-hp-on-a-result-of-2-4-clear-3-stress-on-a-result-of-1-see-through-the-veil-of-death-and-return-changed-gaining-one-scar",
+    "lineageKey": "consumable-sun-tree-sap-consume-this-sap-to-roll-a-d6-on-a-result-of-5-6-clear-2-hp-on-a-result-of-2-4-clear-3-stress-on-a-result-of-1-see-through-the-veil-of-death-and-return-changed-gaining-one-scar",
+    "slug": "sun-tree-sap-consume-this-sap-to-roll-a-d6-on-a-result-of-5-6-clear-2-hp-on-a-result-of-2-4-clear-3-stress-on-a-result-of-1-see-through-the-veil-of-death-and-return-changed-gaining-one-scar",
+    "name": "Sun Tree Sap Consume this sap to roll a d6. On a result of 5-6, clear 2 HP. On a result of 2-4, clear 3 Stress. On a result of 1, see through the veil of death and return changed, gaining one scar.",
+    "rarity": "common",
+    "rollValue": 41,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-dripfang-poison-a-creature-who-consumes-this-poison-takes-8d10-direct-magic-damage",
+    "lineageKey": "consumable-dripfang-poison-a-creature-who-consumes-this-poison-takes-8d10-direct-magic-damage",
+    "slug": "dripfang-poison-a-creature-who-consumes-this-poison-takes-8d10-direct-magic-damage",
+    "name": "Dripfang Poison A creature who consumes this poison takes 8d10 direct magic damage.",
+    "rarity": "common",
+    "rollValue": 42,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-major-health-potion-clear-1d4-2-hp",
+    "lineageKey": "consumable-major-health-potion-clear-1d4-2-hp",
+    "slug": "major-health-potion-clear-1d4-2-hp",
+    "name": "Major Health Potion Clear 1d4+2 HP.",
+    "rarity": "common",
+    "rollValue": 43,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-major-stamina-potion-clear-1d4-2-stress",
+    "lineageKey": "consumable-major-stamina-potion-clear-1d4-2-stress",
+    "slug": "major-stamina-potion-clear-1d4-2-stress",
+    "name": "Major Stamina Potion Clear 1d4+2 Stress.",
+    "rarity": "common",
+    "rollValue": 44,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-ogre-musk",
+    "lineageKey": "consumable-ogre-musk",
+    "slug": "ogre-musk",
+    "name": "Ogre Musk",
+    "rarity": "common",
+    "rollValue": 45,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can use this musk to prevent anyone from tracking you by mundane or magical means until your next rest.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-wingsprout",
+    "lineageKey": "consumable-wingsprout",
+    "slug": "wingsprout",
+    "name": "Wingsprout",
+    "rarity": "common",
+    "rollValue": 46,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You gain magic wings that allow you to fly for a number of minutes equal to your level.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-jar-of-lost-voices",
+    "lineageKey": "consumable-jar-of-lost-voices",
+    "slug": "jar-of-lost-voices",
+    "name": "Jar of Lost Voices",
+    "rarity": "common",
+    "rollValue": 47,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can open this jar to release a deafening echo of voices for a number of minutes equal to your Instinct. Creatures within Far range unprepared for the sound take 6d8 magic damage.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-dragonbloom-tea",
+    "lineageKey": "consumable-dragonbloom-tea",
+    "slug": "dragonbloom-tea",
+    "name": "Dragonbloom Tea",
+    "rarity": "common",
+    "rollValue": 48,
+    "consumableCategory": "food",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can drink this tea to unleash a fiery breath attack. Make an Instinct Roll against all adversaries in front of you within Close range. T argets you succeed against take d20 physical damage using your Proficiency.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-bridge-seed-thick-vines-grow-from-your-location-to-a-point-of-your-choice-within-far-range-allowing-you-to-climb-up-or-across-them-the-vines-dissipate-on-your-next-short-rest-60-roll-loot-description",
+    "lineageKey": "consumable-bridge-seed-thick-vines-grow-from-your-location-to-a-point-of-your-choice-within-far-range-allowing-you-to-climb-up-or-across-them-the-vines-dissipate-on-your-next-short-rest-60-roll-loot-description",
+    "slug": "bridge-seed-thick-vines-grow-from-your-location-to-a-point-of-your-choice-within-far-range-allowing-you-to-climb-up-or-across-them-the-vines-dissipate-on-your-next-short-rest-60-roll-loot-description",
+    "name": "Bridge Seed Thick vines grow from your location to a point of your choice within Far range, allowing you to climb up or across them. The vines dissipate on your next short rest. 60 ROLL LOOT description",
+    "rarity": "common",
+    "rollValue": 49,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-sleeping-sap",
+    "lineageKey": "consumable-sleeping-sap",
+    "slug": "sleeping-sap",
+    "name": "Sleeping Sap",
+    "rarity": "common",
+    "rollValue": 50,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can drink this potion to fall asleep for a full night’s rest. You clear all Stress upon waking.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-feast-of-xuria",
+    "lineageKey": "consumable-feast-of-xuria",
+    "slug": "feast-of-xuria",
+    "name": "Feast of Xuria",
+    "rarity": "common",
+    "rollValue": 51,
+    "consumableCategory": "food",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can eat this meal to clear all HP and Stress and gain 1d4 Hope.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-bonding-honey",
+    "lineageKey": "consumable-bonding-honey",
+    "slug": "bonding-honey",
+    "name": "Bonding Honey",
+    "rarity": "common",
+    "rollValue": 52,
+    "consumableCategory": "food",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "This honey can be used to glue two objects together permanently.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-shrinking-potion",
+    "lineageKey": "consumable-shrinking-potion",
+    "slug": "shrinking-potion",
+    "name": "Shrinking Potion",
+    "rarity": "common",
+    "rollValue": 53,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can drink this potion to halve your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Agility and a -1 penalty to your Proficiency.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-growing-potion",
+    "lineageKey": "consumable-growing-potion",
+    "slug": "growing-potion",
+    "name": "Growing Potion",
+    "rarity": "common",
+    "rollValue": 54,
+    "consumableCategory": "potion",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can drink this potion to double your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Strength and a +1 bonus to your Proficiency.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-knowledge-stone-if-you-die-while-holding-this-stone-an-ally-can-take-a-card-from-your-loadout-to-place-in-their-loadout-or-vault",
+    "lineageKey": "consumable-knowledge-stone-if-you-die-while-holding-this-stone-an-ally-can-take-a-card-from-your-loadout-to-place-in-their-loadout-or-vault",
+    "slug": "knowledge-stone-if-you-die-while-holding-this-stone-an-ally-can-take-a-card-from-your-loadout-to-place-in-their-loadout-or-vault",
+    "name": "Knowledge Stone If you die while holding this stone, an ally can take a card from your loadout to place in their loadout or vault.",
+    "rarity": "common",
+    "rollValue": 55,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "After they take this knowledge, the stone crumbles.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-sweet-moss",
+    "lineageKey": "consumable-sweet-moss",
+    "slug": "sweet-moss",
+    "name": "Sweet Moss",
+    "rarity": "common",
+    "rollValue": 56,
+    "consumableCategory": "food",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can consume this moss during a rest to clear 1d4 HP or 1d4 Stress.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-blinding-orb",
+    "lineageKey": "consumable-blinding-orb",
+    "slug": "blinding-orb",
+    "name": "Blinding Orb",
+    "rarity": "common",
+    "rollValue": 57,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can activate this orb to create a flash of bright light. All targets within Close range become Vulnerable until they mark HP.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-death-tea",
+    "lineageKey": "consumable-death-tea",
+    "slug": "death-tea",
+    "name": "Death Tea",
+    "rarity": "common",
+    "rollValue": 58,
+    "consumableCategory": "food",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "After you drink this tea, you instantly kill your target when you critically succeed on an attack. If you don’t critically succeed on an attack before your next long rest, you die.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-mirror-of-marigold",
+    "lineageKey": "consumable-mirror-of-marigold",
+    "slug": "mirror-of-marigold",
+    "name": "Mirror of Marigold",
+    "rarity": "common",
+    "rollValue": 59,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "When you take damage, you can spend a Hope to negate that damage, after which the mirror shatters.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
+  },
+  {
+    "id": "consumable-stardrop",
+    "lineageKey": "consumable-stardrop",
+    "slug": "stardrop",
+    "name": "Stardrop",
+    "rarity": "common",
+    "rollValue": 60,
+    "consumableCategory": "other",
+    "stackLimit": 5,
+    "usagePayload": {},
+    "rulesText": "You can use this stardrop to summon a hailstorm of comets that deals 8d20 physical damage to all targets within Very Far range.",
+    "tags": [
+      "consumable"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 58
   }
 ]

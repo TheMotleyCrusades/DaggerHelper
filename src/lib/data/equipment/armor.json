@@ -1,88 +1,664 @@
 [
   {
-    "id": "armor-travel-leathers",
-    "lineageKey": "armor-travel-leathers",
-    "slug": "travel-leathers",
-    "name": "Travel Leathers",
+    "id": "armor-gambeson-armor",
+    "lineageKey": "armor-gambeson-armor",
+    "slug": "gambeson-armor",
+    "name": "Gambeson Armor",
+    "tier": 1,
+    "baseMajorThreshold": 5,
+    "baseSevereThreshold": 11,
+    "baseArmorScore": 3,
+    "sheetModifiers": {
+      "evasion": 1
+    },
+    "featureName": null,
+    "featureText": "Flexible: +1 to Evasion",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-leather-armor",
+    "lineageKey": "armor-leather-armor",
+    "slug": "leather-armor",
+    "name": "Leather Armor",
+    "tier": 1,
+    "baseMajorThreshold": 6,
+    "baseSevereThreshold": 13,
+    "baseArmorScore": 3,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-chainmail-armor",
+    "lineageKey": "armor-chainmail-armor",
+    "slug": "chainmail-armor",
+    "name": "Chainmail Armor",
     "tier": 1,
     "baseMajorThreshold": 7,
-    "baseSevereThreshold": 14,
-    "baseArmorScore": 1,
-    "sheetModifiers": {},
-    "featureName": null,
-    "featureText": "Flexible layers keep movement silent in rough terrain.",
-    "tags": ["armor", "light"],
-    "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 54
-  },
-  {
-    "id": "armor-warden-mail",
-    "lineageKey": "armor-warden-mail",
-    "slug": "warden-mail",
-    "name": "Warden Mail",
-    "tier": 1,
-    "baseMajorThreshold": 8,
-    "baseSevereThreshold": 16,
-    "baseArmorScore": 2,
-    "sheetModifiers": {},
-    "featureName": null,
-    "featureText": "Balanced protection without sacrificing mobility.",
-    "tags": ["armor", "medium"],
-    "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 54
-  },
-  {
-    "id": "armor-bulwark-plate",
-    "lineageKey": "armor-bulwark-plate",
-    "slug": "bulwark-plate",
-    "name": "Bulwark Plate",
-    "tier": 1,
-    "baseMajorThreshold": 9,
-    "baseSevereThreshold": 18,
-    "baseArmorScore": 3,
+    "baseSevereThreshold": 15,
+    "baseArmorScore": 4,
     "sheetModifiers": {
       "evasion": -1
     },
     "featureName": null,
-    "featureText": "Heavy plating reduces forced movement effects.",
-    "tags": ["armor", "heavy"],
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "armor"
+    ],
     "sourceBook": "DH-SRD-May202025",
     "sourcePage": 55
   },
   {
-    "id": "armor-shimmerweave",
-    "lineageKey": "armor-shimmerweave",
-    "slug": "shimmerweave",
-    "name": "Shimmerweave",
-    "tier": 1,
-    "baseMajorThreshold": 7,
-    "baseSevereThreshold": 14,
-    "baseArmorScore": 2,
-    "sheetModifiers": {
-      "evasion": 1
-    },
-    "featureName": null,
-    "featureText": "Arcane weave grants +1 evasion versus magical attacks.",
-    "tags": ["armor", "arcane"],
-    "sourceBook": "DH-SRD-May202025",
-    "sourcePage": 55
-  },
-  {
-    "id": "armor-ranger-cloak",
-    "lineageKey": "armor-ranger-cloak",
-    "slug": "ranger-cloak",
-    "name": "Ranger Cloak",
+    "id": "armor-full-plate-armor",
+    "lineageKey": "armor-full-plate-armor",
+    "slug": "full-plate-armor",
+    "name": "Full Plate Armor",
     "tier": 1,
     "baseMajorThreshold": 8,
+    "baseSevereThreshold": 17,
+    "baseArmorScore": 4,
+    "sheetModifiers": {
+      "evasion": -2,
+      "traits": {
+        "agility": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Very Heavy: -2 to Evasion; -1 to Agility",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-improved-gambeson-armor",
+    "lineageKey": "armor-improved-gambeson-armor",
+    "slug": "improved-gambeson-armor",
+    "name": "Improved Gambeson Armor",
+    "tier": 2,
+    "baseMajorThreshold": 7,
     "baseSevereThreshold": 16,
-    "baseArmorScore": 1,
+    "baseArmorScore": 4,
     "sheetModifiers": {
       "evasion": 1
     },
     "featureName": null,
-    "featureText": "Camouflage grants advantage on first stealth check each scene.",
-    "tags": ["armor", "light", "stealth"],
+    "featureText": "Flexible: +1 to Evasion",
+    "tags": [
+      "armor"
+    ],
     "sourceBook": "DH-SRD-May202025",
     "sourcePage": 55
+  },
+  {
+    "id": "armor-improved-leather-armor",
+    "lineageKey": "armor-improved-leather-armor",
+    "slug": "improved-leather-armor",
+    "name": "Improved Leather Armor",
+    "tier": 2,
+    "baseMajorThreshold": 9,
+    "baseSevereThreshold": 20,
+    "baseArmorScore": 4,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-improved-chainmail-armor",
+    "lineageKey": "armor-improved-chainmail-armor",
+    "slug": "improved-chainmail-armor",
+    "name": "Improved Chainmail Armor",
+    "tier": 2,
+    "baseMajorThreshold": 11,
+    "baseSevereThreshold": 24,
+    "baseArmorScore": 5,
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-improved-full-plate-armor",
+    "lineageKey": "armor-improved-full-plate-armor",
+    "slug": "improved-full-plate-armor",
+    "name": "Improved Full Plate Armor",
+    "tier": 2,
+    "baseMajorThreshold": 13,
+    "baseSevereThreshold": 28,
+    "baseArmorScore": 5,
+    "sheetModifiers": {
+      "evasion": -2,
+      "traits": {
+        "agility": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Very Heavy: -2 to Evasion; -1 to Agility",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-elundrian-chain-armor",
+    "lineageKey": "armor-elundrian-chain-armor",
+    "slug": "elundrian-chain-armor",
+    "name": "Elundrian Chain Armor",
+    "tier": 2,
+    "baseMajorThreshold": 9,
+    "baseSevereThreshold": 21,
+    "baseArmorScore": 4,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Warded: You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-harrowbone-armor",
+    "lineageKey": "armor-harrowbone-armor",
+    "slug": "harrowbone-armor",
+    "name": "Harrowbone Armor",
+    "tier": 2,
+    "baseMajorThreshold": 9,
+    "baseSevereThreshold": 21,
+    "baseArmorScore": 4,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Resilient: Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-irontree-breastplate-armor",
+    "lineageKey": "armor-irontree-breastplate-armor",
+    "slug": "irontree-breastplate-armor",
+    "name": "Irontree Breastplate Armor",
+    "tier": 2,
+    "baseMajorThreshold": 9,
+    "baseSevereThreshold": 20,
+    "baseArmorScore": 4,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Reinforced: When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-runetan-floating-armor",
+    "lineageKey": "armor-runetan-floating-armor",
+    "slug": "runetan-floating-armor",
+    "name": "Runetan Floating Armor",
+    "tier": 2,
+    "baseMajorThreshold": 9,
+    "baseSevereThreshold": 20,
+    "baseArmorScore": 4,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Shifting: When you are targeted for an attack, you can mark an Armor Slot to give the attack roll against you disadvantage.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-tyris-soft-armor",
+    "lineageKey": "armor-tyris-soft-armor",
+    "slug": "tyris-soft-armor",
+    "name": "Tyris Soft Armor",
+    "tier": 2,
+    "baseMajorThreshold": 8,
+    "baseSevereThreshold": 18,
+    "baseArmorScore": 5,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Quiet: You gain a +2 bonus to rolls you make to move silently.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-rosewild-armor",
+    "lineageKey": "armor-rosewild-armor",
+    "slug": "rosewild-armor",
+    "name": "Rosewild Armor",
+    "tier": 2,
+    "baseMajorThreshold": 11,
+    "baseSevereThreshold": 23,
+    "baseArmorScore": 5,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Hopeful: When you would spend a Hope, you can mark an Armor Slot instead.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 55
+  },
+  {
+    "id": "armor-advanced-gambeson-armor",
+    "lineageKey": "armor-advanced-gambeson-armor",
+    "slug": "advanced-gambeson-armor",
+    "name": "Advanced Gambeson Armor",
+    "tier": 3,
+    "baseMajorThreshold": 9,
+    "baseSevereThreshold": 23,
+    "baseArmorScore": 5,
+    "sheetModifiers": {
+      "evasion": 1
+    },
+    "featureName": null,
+    "featureText": "Flexible: +1 to Evasion",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-advanced-leather-armor",
+    "lineageKey": "armor-advanced-leather-armor",
+    "slug": "advanced-leather-armor",
+    "name": "Advanced Leather Armor",
+    "tier": 3,
+    "baseMajorThreshold": 11,
+    "baseSevereThreshold": 27,
+    "baseArmorScore": 5,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-advanced-chainmail-armor",
+    "lineageKey": "armor-advanced-chainmail-armor",
+    "slug": "advanced-chainmail-armor",
+    "name": "Advanced Chainmail Armor",
+    "tier": 3,
+    "baseMajorThreshold": 13,
+    "baseSevereThreshold": 31,
+    "baseArmorScore": 6,
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-advanced-full-plate-armor",
+    "lineageKey": "armor-advanced-full-plate-armor",
+    "slug": "advanced-full-plate-armor",
+    "name": "Advanced Full Plate Armor",
+    "tier": 3,
+    "baseMajorThreshold": 15,
+    "baseSevereThreshold": 35,
+    "baseArmorScore": 6,
+    "sheetModifiers": {
+      "evasion": -2,
+      "traits": {
+        "agility": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Very Heavy: -2 to Evasion; -1 to Agility",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-bellamoi-fine-armor",
+    "lineageKey": "armor-bellamoi-fine-armor",
+    "slug": "bellamoi-fine-armor",
+    "name": "Bellamoi Fine Armor",
+    "tier": 3,
+    "baseMajorThreshold": 11,
+    "baseSevereThreshold": 27,
+    "baseArmorScore": 5,
+    "sheetModifiers": {
+      "traits": {
+        "presence": 1
+      }
+    },
+    "featureName": null,
+    "featureText": "Gilded: +1 to Presence",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-dragonscale-armor",
+    "lineageKey": "armor-dragonscale-armor",
+    "slug": "dragonscale-armor",
+    "name": "Dragonscale Armor",
+    "tier": 3,
+    "baseMajorThreshold": 11,
+    "baseSevereThreshold": 27,
+    "baseArmorScore": 5,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Impenetrable: Once per short rest, when you would mark your last Hit Point, you can instead mark a Stress.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-spiked-plate-armor",
+    "lineageKey": "armor-spiked-plate-armor",
+    "slug": "spiked-plate-armor",
+    "name": "Spiked Plate Armor",
+    "tier": 3,
+    "baseMajorThreshold": 10,
+    "baseSevereThreshold": 25,
+    "baseArmorScore": 5,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Sharp: On a successful attack against a target within Melee range, add a d4 to the damage roll.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-bladefare-armor",
+    "lineageKey": "armor-bladefare-armor",
+    "slug": "bladefare-armor",
+    "name": "Bladefare Armor",
+    "tier": 3,
+    "baseMajorThreshold": 16,
+    "baseSevereThreshold": 39,
+    "baseArmorScore": 6,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Physical: You can’t mark an Armor Slot to reduce magic damage.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-monett-s-cloak",
+    "lineageKey": "armor-monett-s-cloak",
+    "slug": "monett-s-cloak",
+    "name": "Monett’s Cloak",
+    "tier": 3,
+    "baseMajorThreshold": 16,
+    "baseSevereThreshold": 39,
+    "baseArmorScore": 6,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Magic: You can’t mark an Armor Slot to reduce physical damage.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-runes-of-fortification",
+    "lineageKey": "armor-runes-of-fortification",
+    "slug": "runes-of-fortification",
+    "name": "Runes of Fortification",
+    "tier": 3,
+    "baseMajorThreshold": 17,
+    "baseSevereThreshold": 43,
+    "baseArmorScore": 6,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Painful: Each time you mark an Armor Slot, you must mark a Stress.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-legendary-gambeson-armor",
+    "lineageKey": "armor-legendary-gambeson-armor",
+    "slug": "legendary-gambeson-armor",
+    "name": "Legendary Gambeson Armor",
+    "tier": 4,
+    "baseMajorThreshold": 11,
+    "baseSevereThreshold": 32,
+    "baseArmorScore": 6,
+    "sheetModifiers": {
+      "evasion": 1
+    },
+    "featureName": null,
+    "featureText": "Flexible: +1 to Evasion",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-legendary-leather-armor",
+    "lineageKey": "armor-legendary-leather-armor",
+    "slug": "legendary-leather-armor",
+    "name": "Legendary Leather Armor",
+    "tier": 4,
+    "baseMajorThreshold": 13,
+    "baseSevereThreshold": 36,
+    "baseArmorScore": 6,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-legendary-chainmail-armor",
+    "lineageKey": "armor-legendary-chainmail-armor",
+    "slug": "legendary-chainmail-armor",
+    "name": "Legendary Chainmail Armor",
+    "tier": 4,
+    "baseMajorThreshold": 15,
+    "baseSevereThreshold": 40,
+    "baseArmorScore": 7,
+    "sheetModifiers": {
+      "evasion": -1
+    },
+    "featureName": null,
+    "featureText": "Heavy: -1 to Evasion",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-legendary-full-plate-armor",
+    "lineageKey": "armor-legendary-full-plate-armor",
+    "slug": "legendary-full-plate-armor",
+    "name": "Legendary Full Plate Armor",
+    "tier": 4,
+    "baseMajorThreshold": 17,
+    "baseSevereThreshold": 44,
+    "baseArmorScore": 7,
+    "sheetModifiers": {
+      "evasion": -2,
+      "traits": {
+        "agility": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Very Heavy: -2 to Evasion; -1 to Agility",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-dunamis-silkchain",
+    "lineageKey": "armor-dunamis-silkchain",
+    "slug": "dunamis-silkchain",
+    "name": "Dunamis Silkchain",
+    "tier": 4,
+    "baseMajorThreshold": 13,
+    "baseSevereThreshold": 36,
+    "baseArmorScore": 7,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Timeslowing: Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-channeling-armor",
+    "lineageKey": "armor-channeling-armor",
+    "slug": "channeling-armor",
+    "name": "Channeling Armor",
+    "tier": 4,
+    "baseMajorThreshold": 13,
+    "baseSevereThreshold": 36,
+    "baseArmorScore": 5,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Channeling: +1 to Spellcast Rolls",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-emberwoven-armor",
+    "lineageKey": "armor-emberwoven-armor",
+    "slug": "emberwoven-armor",
+    "name": "Emberwoven Armor",
+    "tier": 4,
+    "baseMajorThreshold": 13,
+    "baseSevereThreshold": 36,
+    "baseArmorScore": 6,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Burning: When an adversary attacks you within Melee range, they mark a Stress.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-full-fortified-armor",
+    "lineageKey": "armor-full-fortified-armor",
+    "slug": "full-fortified-armor",
+    "name": "Full Fortified Armor",
+    "tier": 4,
+    "baseMajorThreshold": 15,
+    "baseSevereThreshold": 40,
+    "baseArmorScore": 4,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Fortified: When you mark an Armor Slot, you reduce the severity of an attack by two thresholds instead of one.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-veritas-opal-armor",
+    "lineageKey": "armor-veritas-opal-armor",
+    "slug": "veritas-opal-armor",
+    "name": "Veritas Opal Armor",
+    "tier": 4,
+    "baseMajorThreshold": 13,
+    "baseSevereThreshold": 36,
+    "baseArmorScore": 6,
+    "sheetModifiers": {},
+    "featureName": null,
+    "featureText": "Truthseeking: This armor glows when another creature within Close range tells a lie.",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
+  },
+  {
+    "id": "armor-savior-chainmail",
+    "lineageKey": "armor-savior-chainmail",
+    "slug": "savior-chainmail",
+    "name": "Savior Chainmail",
+    "tier": 4,
+    "baseMajorThreshold": 18,
+    "baseSevereThreshold": 48,
+    "baseArmorScore": 8,
+    "sheetModifiers": {
+      "evasion": -1,
+      "traits": {
+        "agility": -1,
+        "strength": -1,
+        "finesse": -1,
+        "instinct": -1,
+        "presence": -1,
+        "knowledge": -1
+      }
+    },
+    "featureName": null,
+    "featureText": "Difficult: -1 to all character traits and Evasion",
+    "tags": [
+      "armor"
+    ],
+    "sourceBook": "DH-SRD-May202025",
+    "sourcePage": 56
   }
 ]
