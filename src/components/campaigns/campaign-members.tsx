@@ -117,7 +117,7 @@ export function CampaignMembers({
       {canManage && (
         <form className="flex flex-wrap gap-2" onSubmit={addMember}>
           <input
-            className="field min-w-[220px] flex-1"
+            className="field flex-1 sm:min-w-[220px]"
             type="email"
             required
             placeholder="Invite member by email"

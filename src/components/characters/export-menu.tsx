@@ -61,7 +61,7 @@ export function ExportMenu({ characterId }: { characterId: number }) {
 
       {shareUrl && (
         <div className="mt-2 flex flex-wrap items-center gap-2">
-          <input className="field min-w-[200px] flex-1 text-xs" readOnly value={shareUrl} />
+          <input className="field flex-1 text-xs sm:min-w-[200px]" readOnly value={shareUrl} />
           <button className="btn-outline min-h-11 px-3 py-2 text-xs" onClick={copyShare} type="button">
             Copy
           </button>

@@ -107,7 +107,7 @@ function IdentityCard({
     <button
       type="button"
       onClick={() => onSelect(card.id)}
-      className={`w-72 shrink-0 overflow-hidden rounded-xl border text-left transition ${
+      className={`w-full overflow-hidden rounded-xl border text-left transition touch-manipulation sm:w-72 sm:shrink-0 ${
         selected
           ? "border-amber-500/80 bg-amber-950/35"
           : "border-slate-700/50 bg-slate-900/70 hover:border-amber-500/45"
@@ -116,7 +116,7 @@ function IdentityCard({
       {hasImage ? (
         <div className="p-2">
           <div
-            className="h-[25rem] w-full rounded-lg border border-slate-700/60 bg-contain bg-center bg-no-repeat"
+            className="h-64 w-full rounded-lg border border-slate-700/60 bg-contain bg-center bg-no-repeat sm:h-[25rem]"
             style={{
               backgroundImage: `url(${card.image})`,
             }}
@@ -273,8 +273,8 @@ export function IdentityCardsStep({
             Mixed heritage supported: select up to 2 ancestries.
           </p>
         </div>
-        <div className="overflow-x-auto pb-1">
-          <div className="flex min-w-max gap-3">
+        <div className="sm:overflow-x-auto sm:pb-1">
+          <div className="grid gap-3 sm:flex sm:min-w-max">
             {availableAncestries.map((card) => (
               <IdentityCard
                 key={card.id}
@@ -292,8 +292,8 @@ export function IdentityCardsStep({
           <h3 className="text-lg text-amber-200">Community Cards</h3>
           <p className="text-xs text-slate-400">Pick one community card to complete identity.</p>
         </div>
-        <div className="overflow-x-auto pb-1">
-          <div className="flex min-w-max gap-3">
+        <div className="sm:overflow-x-auto sm:pb-1">
+          <div className="grid gap-3 sm:flex sm:min-w-max">
             {availableCommunities.map((card) => (
               <IdentityCard
                 key={card.id}

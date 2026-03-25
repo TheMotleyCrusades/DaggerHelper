@@ -299,7 +299,7 @@ export function ClassSelectionStep({
               <p className="text-sm text-amber-200">Class Artwork</p>
               <div className="mt-2 rounded-md border border-slate-700/50 bg-slate-900/65 p-2">
                 <div
-                  className="h-[24rem] w-full rounded-md border border-slate-700/55 bg-contain bg-center bg-no-repeat"
+                  className="h-64 w-full rounded-md border border-slate-700/55 bg-contain bg-center bg-no-repeat sm:h-[24rem]"
                   style={{
                     backgroundImage: classGradient(selectedClass.id),
                   }}
@@ -321,9 +321,27 @@ export function ClassSelectionStep({
               Pick the card this character starts with.
             </p>
           </div>
+          {selectedFoundations.length > 0 && (
+            <label className="text-xs text-slate-300">
+              Foundation Selector (mobile-safe fallback)
+              <select
+                className="field mt-1"
+                value={subclass}
+                onChange={(event) =>
+                  onChange({ class: selectedClass.id, subclass: event.target.value })
+                }
+              >
+                {selectedFoundations.map((card) => (
+                  <option key={card.id} value={card.subclassName}>
+                    {card.subclassName}
+                  </option>
+                ))}
+              </select>
+            </label>
+          )}
           {selectedFoundations.length > 0 ? (
-            <div className="overflow-x-auto pb-1">
-              <div className="flex min-w-max gap-3">
+            <div className="sm:overflow-x-auto sm:pb-1">
+              <div className="grid gap-3 sm:flex sm:min-w-max">
                 {selectedFoundations.map((card) => {
                   const selected = card.subclassName === subclass;
                   return (
@@ -331,7 +349,7 @@ export function ClassSelectionStep({
                       key={card.id}
                       type="button"
                       onClick={() => onChange({ class: selectedClass.id, subclass: card.subclassName })}
-                      className={`w-72 shrink-0 overflow-hidden rounded-xl border text-left transition ${
+                      className={`w-full overflow-hidden rounded-xl border text-left transition touch-manipulation sm:w-72 sm:shrink-0 ${
                         selected
                           ? "border-amber-500/80 bg-amber-950/35"
                           : "border-slate-700/50 bg-slate-900/70 hover:border-amber-500/45"
@@ -340,7 +358,7 @@ export function ClassSelectionStep({
                       {card.image ? (
                         <div className="p-2">
                           <div
-                            className="h-[24rem] w-full rounded-lg border border-slate-700/60 bg-contain bg-center bg-no-repeat"
+                            className="h-64 w-full rounded-lg border border-slate-700/60 bg-contain bg-center bg-no-repeat sm:h-[24rem]"
                             style={{
                               backgroundImage: `url(${card.image})`,
                             }}

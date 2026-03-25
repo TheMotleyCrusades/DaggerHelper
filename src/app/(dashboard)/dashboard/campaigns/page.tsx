@@ -88,7 +88,7 @@ export default function CampaignsPage() {
 
       <form className="mb-4 flex flex-wrap gap-2" onSubmit={joinCampaign}>
         <input
-          className="field min-w-[220px] flex-1"
+                  className="field flex-1 sm:min-w-[220px]"
           placeholder="Join with invite code"
           value={joinCode}
           onChange={(event) => setJoinCode(event.target.value.toUpperCase())}

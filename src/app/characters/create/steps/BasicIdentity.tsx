@@ -197,9 +197,25 @@ export function BasicIdentityStep({
           </p>
         </div>
 
+        <label className="text-xs text-slate-300">
+          Class Selector (mobile-safe fallback)
+          <select
+            className="field mt-1"
+            value={className}
+            onChange={(event) => onSelectClass(event.target.value)}
+          >
+            <option value="">Select class</option>
+            {availableClasses.map((item) => (
+              <option key={item.id} value={item.id}>
+                {item.name}
+              </option>
+            ))}
+          </select>
+        </label>
+
         {availableClasses.length ? (
-          <div className="overflow-x-auto pb-1">
-            <div className="flex min-w-max gap-3">
+          <div className="sm:overflow-x-auto sm:pb-1">
+            <div className="grid gap-3 sm:flex sm:min-w-max">
               {availableClasses.map((item) => {
                 const selected = item.id === className;
                 return (
@@ -207,7 +223,7 @@ export function BasicIdentityStep({
                     key={item.id}
                     type="button"
                     onClick={() => onSelectClass(item.id)}
-                    className={`w-72 shrink-0 overflow-hidden rounded-xl border text-left transition ${
+                    className={`w-full overflow-hidden rounded-xl border text-left transition touch-manipulation sm:w-72 sm:shrink-0 ${
                       selected
                         ? "border-amber-500/80 bg-amber-950/35"
                         : "border-slate-700/50 bg-slate-900/70 hover:border-amber-500/45"

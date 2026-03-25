@@ -120,7 +120,7 @@ export function EncounterBuilder({
       </div>
 
       <div className="flex flex-wrap items-center gap-2">
-        <select className="field min-w-[260px] flex-1" value={selectedId} onChange={(event) => setSelectedId(event.target.value)}>
+          <select className="field flex-1 sm:min-w-[260px]" value={selectedId} onChange={(event) => setSelectedId(event.target.value)}>
           <option value="">Add adversary...</option>
           {available.map((option) => (
             <option key={option.id} value={option.id}>
