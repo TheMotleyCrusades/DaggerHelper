@@ -186,16 +186,31 @@ Current state:
 3. Mixed nav ownership:
 - global quick actions + workspace tabs + page-local link clusters occasionally overlap in destination.
 
-## Consolidation Decisions (Proposed)
+## Consolidation Decisions (Locked 2026-03-31)
 
-1. World Creator Engine is canonical for all authoring.
-- Keep `/dashboard/adversaries*` for now as compatibility surface.
-- Add explicit redirects and labels toward world creator equivalents where appropriate.
+1. Moderation visibility:
+- `Moderation` must be hidden for non-admin users.
 
-2. Keep only one dashboard primary tab row.
+2. Library duplication:
+- remove `/dashboard/library` as a standalone destination.
+- use `/dashboard/world/weapons` as the canonical entry for equipment library management.
+
+3. Adversary duplication:
+- remove `/dashboard/adversaries` as a standalone destination.
+- world creator must own adversary authoring and adversary management surfaces.
+
+4. World creator IA complexity:
+- keep the world creator list flat for now.
+- do not add extra menu layers until current flow is stable.
+
+5. Campaign quick actions:
+- remove campaign quick actions from global top nav.
+- keep campaign quick actions only inside campaign pages.
+
+6. Keep only one dashboard primary tab row:
 - no second "section tabs" directly under page titles unless it is truly local navigation.
 
-3. De-duplicate route families by intent:
+7. De-duplicate route families by intent:
 - Authoring: `/dashboard/world/*`
 - Campaign operation: `/dashboard/campaigns/*` + `/campaigns/[id]/*`
 - Character runtime: `/characters/*`
@@ -254,14 +269,6 @@ Before adding a route/page:
 - add status row in this document
 - avoid creating a second route for the same intent unless redirect compatibility is required
 
-## Decision Questions (Needs Product Direction)
-
-1. Should `Moderation` be hidden for non-admin roles entirely (recommended)?
-2. Should `/dashboard/library` become a redirect to `/dashboard/world/weapons` (recommended)?
-3. Should `/dashboard/adversaries` remain as a management index but label itself as part of World Creator Engine (recommended)?
-4. Should world creator kinds be regrouped visually into `Libraries`, `Character Rules`, and `Runtime Systems` rather than one long flat list (recommended)?
-5. Do you want campaign-level quick links (`HUD`, `Settings`) to remain in global quick actions, or move fully inside campaign pages?
-
 ## Immediate Next Artifact
-After decisions above, produce:
-- `docs/SECTION_BUILD_SPECS.md` with one spec block per canonical section, including detailed feature checklist and "left to do" status.
+Active:
+- `docs/SECTION_BUILD_SPECS.md`
